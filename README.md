@@ -3,29 +3,43 @@
 厌倦了千篇一律的收缩毒圈？该整合包为你带来了前所未有的自由度，让你亲手塑造属于自己的大逃杀体验。从精致逼真的枪械到高度自定义的多功能区域——每场战斗都将充满无限可能。
 
 核心特色：
-- 高度自定义的区域：自由设置区域形状（椭圆、星形、球形、正多边形等），并为他们添加自定义效果（烟花、无敌、粒子、药水等）
+- 高度自定义的区域：自由设置平面及立体区域形状，并可添加多种特殊效果
 - 自定义物资生成：可组合任意物品和实体刷新，支持原版箱子刷新
-- 沉浸式体验：整合包打包了枪械模组、越肩视角、旅行地图等核心模组，一键还原大逃杀游戏的经典体验
 
 强烈建议搭配丰富的游戏地图和热闹的服务器氛围。你和你的朋友们可以利用这些强大的自定义功能，创造属于自己的独特玩法，尽情享受这场独一无二的生存对决！
 
-包含的模组：
-- [TaCZ] LesRaisins Tactical Equipments
-- (核心模组) [TaCZ] Timeless and Classics Zero by nekocrane, maydaymemory, TartaricAcid, f1zeil
-- Camera Overhaul Reforged
-- Cloth Config API
-- (核心模组) Custom BattleRoyale
-- Gliders
-- ItemPhysics Full
-- JourneyMap
-- Kiwi
-- Mouse Tweaks
-- Passable Foliage
-- Pick Up Notifier
-- Shoulder Surfing Reloaded
-- Trample Stopper
-- Trenzalore
-- WorldEdit
+## 整合包内容
+按名称排序
 
-包含的光影：
-- Complementary Shaders - Reimagined
+### 大逃杀机制
+无需原版边界、提供丰富且独立于原版的游戏机制
+- Custom BattleRoyale by XiaoColorful
+
+### 物品
+枪战为主的大逃杀、可替换为其他模组
+- [TaCZ] LesRaisins Tactical Equipments by xjqshm, LesRaisinsStudio
+- [TaCZ] Timeless and Classics Zero by nekocrane, maydaymemory, TartaricAcid, f1zeil
+
+### 视觉优化
+经典大逃杀游戏的视角
+- Camera Overhaul Reforged by ConfusedFool93
+- ItemPhysics Full by CreativeMD
+- Pick Up Notifier by Fuzs
+- Shoulder Surfing Reloaded by \_ForgeUser21552638, Exopandora
+
+### 辅助
+让生活更轻松
+- JourneyMap by techbrew, Mysticdrew, meme_sapiens
+- Kiwi by Snownee
+- Mouse Tweaks by YaLTeR
+- Passable Foliage by Snownee
+- Trample Stopper by UnRealDinnerbone, nanitedev
+- WorldEdit by sk89q, me4502, wizjany_, octylFractal
+
+### 整合包模组依赖项
+- Cloth Config API by shedaniel, LinkielsBetterThanK9
+- Trenzalore by UnRealDinnerbone
+
+### 光影
+美观又不失兼容性
+- Complementary Shaders - Reimagined by EminGT
