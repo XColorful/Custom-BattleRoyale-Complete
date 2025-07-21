@@ -1,0 +1,171 @@
+[
+  {
+    "gameId": 0,
+    "gameName": "Erangel 100 4",
+    "color": "#FFFFFFAA",
+    "battleroyale": {
+      "playerTotal": 100,
+      "teamSize": 4,
+      "aiTeammate": true,
+      "aiEnemy": true,
+      "maxGameTime": 34000,
+      "lobbyCenter": "3816.000000,14.000000,-3624.000000",
+      "lobbyDimension": "555.000000,555.000000,555.000000",
+      "lobbyMuteki": true,
+      "recordGameStats": true,
+      "autoJoinGame": true
+    },
+    "minecraft": {
+      "adventureMode": true,
+      "mobGriefing": false,
+      "autoSaturation": true,
+      "naturalRegeneration": false,
+      "doMobSpawning": false,
+      "doFireTick": false,
+      "doDaylightCycle": false,
+      "doWeatherCycle": false,
+      "fallDamage": true,
+      "tntExplodes": false,
+      "spectatorGenerateChunks": false,
+      "timeSet": 5000
+    },
+    "game": {
+      "maxPlayerInvalidTime": 1200,
+      "maxBotInvalidTime": 200,
+      "removeInvalidTeam": false,
+      "allowRemainingBot": true,
+      "keepTeamAfterGame": true,
+      "teleportAfterGame": true,
+      "teleportWinnerAfterGame": false,
+      "winnerFireworkId": 0,
+      "winnerParticleId": 0
+    }
+  },
+  {
+    "gameId": 1,
+    "gameName": "Erangel 64 4",
+    "color": "#FFFFFFAA",
+    "battleroyale": {
+      "playerTotal": 64,
+      "teamSize": 4,
+      "aiTeammate": false,
+      "aiEnemy": false,
+      "maxGameTime": 34000,
+      "lobbyCenter": "3816.000000,14.000000,-3624.000000",
+      "lobbyDimension": "555.000000,555.000000,555.000000",
+      "lobbyMuteki": true,
+      "recordGameStats": true,
+      "autoJoinGame": true
+    },
+    "minecraft": {
+      "adventureMode": true,
+      "mobGriefing": false,
+      "autoSaturation": true,
+      "naturalRegeneration": false,
+      "doMobSpawning": false,
+      "doFireTick": false,
+      "doDaylightCycle": false,
+      "doWeatherCycle": false,
+      "fallDamage": true,
+      "tntExplodes": false,
+      "spectatorGenerateChunks": false,
+      "timeSet": 5000
+    },
+    "game": {
+      "maxPlayerInvalidTime": 1200,
+      "maxBotInvalidTime": 200,
+      "removeInvalidTeam": false,
+      "allowRemainingBot": true,
+      "keepTeamAfterGame": true,
+      "teleportAfterGame": true,
+      "teleportWinnerAfterGame": false,
+      "winnerFireworkId": 0,
+      "winnerParticleId": 0
+    }
+  },
+  {
+    "gameId": 10,
+    "default": true,
+    "gameName": "Miramar 100 4",
+    "color": "#FFFFFFAA",
+    "battleroyale": {
+      "playerTotal": 100,
+      "teamSize": 4,
+      "aiTeammate": true,
+      "aiEnemy": true,
+      "maxGameTime": 34000,
+      "lobbyCenter": "2066.500000,34.000000,-5097.500000",
+      "lobbyDimension": "555.000000,555.000000,555.000000",
+      "lobbyMuteki": true,
+      "recordGameStats": true,
+      "autoJoinGame": true
+    },
+    "minecraft": {
+      "adventureMode": true,
+      "mobGriefing": false,
+      "autoSaturation": true,
+      "naturalRegeneration": false,
+      "doMobSpawning": false,
+      "doFireTick": false,
+      "doDaylightCycle": false,
+      "doWeatherCycle": false,
+      "fallDamage": true,
+      "tntExplodes": false,
+      "spectatorGenerateChunks": false,
+      "timeSet": 5000
+    },
+    "game": {
+      "maxPlayerInvalidTime": 1200,
+      "maxBotInvalidTime": 200,
+      "removeInvalidTeam": false,
+      "allowRemainingBot": true,
+      "keepTeamAfterGame": true,
+      "teleportAfterGame": true,
+      "teleportWinnerAfterGame": false,
+      "winnerFireworkId": 0,
+      "winnerParticleId": 0
+    }
+  },
+  {
+    "gameId": 11,
+    "gameName": "Miramar 64 4",
+    "color": "#FFFFFFAA",
+    "battleroyale": {
+      "playerTotal": 64,
+      "teamSize": 4,
+      "aiTeammate": false,
+      "aiEnemy": false,
+      "maxGameTime": 34000,
+      "lobbyCenter": "2066.500000,34.000000,-5097.500000",
+      "lobbyDimension": "555.000000,555.000000,555.000000",
+      "lobbyMuteki": true,
+      "recordGameStats": true,
+      "autoJoinGame": true
+    },
+    "minecraft": {
+      "adventureMode": true,
+      "mobGriefing": false,
+      "autoSaturation": true,
+      "naturalRegeneration": false,
+      "doMobSpawning": false,
+      "doFireTick": false,
+      "doDaylightCycle": false,
+      "doWeatherCycle": false,
+      "fallDamage": true,
+      "tntExplodes": false,
+      "spectatorGenerateChunks": false,
+      "timeSet": 5000
+    },
+    "game": {
+      "maxPlayerInvalidTime": 1200,
+      "maxBotInvalidTime": 200,
+      "removeInvalidTeam": false,
+      "allowRemainingBot": true,
+      "keepTeamAfterGame": true,
+      "teleportAfterGame": true,
+      "teleportWinnerAfterGame": false,
+      "winnerFireworkId": 0,
+      "winnerParticleId": 0
+    }
+  }
+]
