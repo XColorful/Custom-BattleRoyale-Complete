@@ -30,6 +30,25 @@
       "timeSet": 5000
     },
     "game": {
+      "teamMessageExpireSeconds": 300000,
+      "teamColors": [
+        "#E9ECEC",
+        "#F07613",
+        "#BD44B3",
+        "#3AAFD9",
+        "#F8C627",
+        "#70B919",
+        "#ED8DAC",
+        "#8E8E86",
+        "#A0A0A0",
+        "#158991",
+        "#792AAC",
+        "#35399D",
+        "#724728",
+        "#546D1B",
+        "#A02722",
+        "#141519"
+      ],
       "maxPlayerInvalidTime": 1200,
       "maxBotInvalidTime": 200,
       "removeInvalidTeam": false,
@@ -38,7 +57,10 @@
       "teleportAfterGame": true,
       "teleportWinnerAfterGame": false,
       "winnerFireworkId": 0,
-      "winnerParticleId": 0
+      "winnerParticleId": 0,
+      "messageCleanFrequency": 140,
+      "messageExpireTime": 100,
+      "messageSyncFrequency": 100
     }
   },
   {
@@ -72,6 +94,25 @@
       "timeSet": 5000
     },
     "game": {
+      "teamMessageExpireSeconds": 300000,
+      "teamColors": [
+        "#E9ECEC",
+        "#F07613",
+        "#BD44B3",
+        "#3AAFD9",
+        "#F8C627",
+        "#70B919",
+        "#ED8DAC",
+        "#8E8E86",
+        "#A0A0A0",
+        "#158991",
+        "#792AAC",
+        "#35399D",
+        "#724728",
+        "#546D1B",
+        "#A02722",
+        "#141519"
+      ],
       "maxPlayerInvalidTime": 1200,
       "maxBotInvalidTime": 200,
       "removeInvalidTeam": false,
@@ -80,7 +121,10 @@
       "teleportAfterGame": true,
       "teleportWinnerAfterGame": false,
       "winnerFireworkId": 0,
-      "winnerParticleId": 0
+      "winnerParticleId": 0,
+      "messageCleanFrequency": 140,
+      "messageExpireTime": 100,
+      "messageSyncFrequency": 100
     }
   },
   {
@@ -115,6 +159,25 @@
       "timeSet": 5000
     },
     "game": {
+      "teamMessageExpireSeconds": 300,
+      "teamColors": [
+        "#E9ECEC",
+        "#F07613",
+        "#BD44B3",
+        "#3AAFD9",
+        "#F8C627",
+        "#70B919",
+        "#ED8DAC",
+        "#8E8E86",
+        "#A0A0A0",
+        "#158991",
+        "#792AAC",
+        "#35399D",
+        "#724728",
+        "#546D1B",
+        "#A02722",
+        "#141519"
+      ],
       "maxPlayerInvalidTime": 1200,
       "maxBotInvalidTime": 200,
       "removeInvalidTeam": false,
@@ -123,7 +186,10 @@
       "teleportAfterGame": true,
       "teleportWinnerAfterGame": false,
       "winnerFireworkId": 0,
-      "winnerParticleId": 0
+      "winnerParticleId": 0,
+      "messageCleanFrequency": 140,
+      "messageExpireTime": 100,
+      "messageSyncFrequency": 100
     }
   },
   {
@@ -157,6 +223,25 @@
       "timeSet": 5000
     },
     "game": {
+      "teamMessageExpireSeconds": 300,
+      "teamColors": [
+        "#E9ECEC",
+        "#F07613",
+        "#BD44B3",
+        "#3AAFD9",
+        "#F8C627",
+        "#70B919",
+        "#ED8DAC",
+        "#8E8E86",
+        "#A0A0A0",
+        "#158991",
+        "#792AAC",
+        "#35399D",
+        "#724728",
+        "#546D1B",
+        "#A02722",
+        "#141519"
+      ],
       "maxPlayerInvalidTime": 1200,
       "maxBotInvalidTime": 200,
       "removeInvalidTeam": false,
@@ -165,7 +250,10 @@
       "teleportAfterGame": true,
       "teleportWinnerAfterGame": false,
       "winnerFireworkId": 0,
-      "winnerParticleId": 0
+      "winnerParticleId": 0,
+      "messageCleanFrequency": 140,
+      "messageExpireTime": 100,
+      "messageSyncFrequency": 100
     }
   }
 ]

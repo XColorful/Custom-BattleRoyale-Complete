@@ -1,7 +1,6 @@
 [
   {
     "id": 0,
-    "default": true,
     "name": "8000x8000 Circle radius 4000 * 90%",
     "color": "#FFFFFFAA",
     "preZoneCenterOffset": 0,
@@ -50,6 +49,7 @@
   },
   {
     "id": 3,
+    "default": true,
     "name": "881x881 Circle radius 440 * 90%",
     "color": "#FFFFFFAA",
     "preZoneCenterOffset": 0,

@@ -11,12 +11,12 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Custom BattleRoyale modpack",
-  "version": "0.2.3",
+  "version": "0.2.4-hotfix",
   "author": "",
   "files": [
     {
       "projectID": 1277855,
-      "fileID": 6707058,
+      "fileID": 6716098,
       "required": true
     },
     {
