@@ -1,0 +1,84 @@
+{
+  "minecraft": {
+    "version": "1.20.1",
+    "modLoaders": [
+      {
+        "id": "forge-47.4.0",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Custom BattleRoyale Complete server",
+  "version": "0.2.4",
+  "author": "",
+  "files": [
+    {
+      "projectID": 303657,
+      "fileID": 6466335,
+      "required": true
+    },
+    {
+      "projectID": 258587,
+      "fileID": 6450992,
+      "required": true
+    },
+    {
+      "projectID": 297028,
+      "fileID": 4584844,
+      "required": true
+    },
+    {
+      "projectID": 379887,
+      "fileID": 4869702,
+      "required": true
+    },
+    {
+      "projectID": 828331,
+      "fileID": 6517195,
+      "required": true
+    },
+    {
+      "projectID": 1028108,
+      "fileID": 6654541,
+      "required": true
+    },
+    {
+      "projectID": 348521,
+      "fileID": 5729105,
+      "required": true
+    },
+    {
+      "projectID": 257814,
+      "fileID": 6383884,
+      "required": true
+    },
+    {
+      "projectID": 32274,
+      "fileID": 5789363,
+      "required": true
+    },
+    {
+      "projectID": 1273094,
+      "fileID": 6751092,
+      "required": true
+    },
+    {
+      "projectID": 1277855,
+      "fileID": 6716292,
+      "required": true
+    },
+    {
+      "projectID": 225608,
+      "fileID": 4586218,
+      "required": true
+    },
+    {
+      "projectID": 870210,
+      "fileID": 4848244,
+      "required": true
+    }
+  ],
+  "overrides": "overrides"
+}
