@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Custom BattleRoyale Complete server",
-  "version": "0.2.4",
+  "version": "0.2.6",
   "author": "",
   "files": [
     {
@@ -45,6 +45,11 @@
       "required": true
     },
     {
+      "projectID": 1277855,
+      "fileID": 6829087,
+      "required": true
+    },
+    {
       "projectID": 348521,
       "fileID": 5729105,
       "required": true
@@ -62,11 +67,6 @@
     {
       "projectID": 1273094,
       "fileID": 6751092,
-      "required": true
-    },
-    {
-      "projectID": 1277855,
-      "fileID": 6716292,
       "required": true
     },
     {

@@ -12,7 +12,7 @@
 	EnableLaserFadeOut = true
 	#How far to display the lod model, 0 means always display
 	#Range: > 0
-	GunLodRenderDistance = 0
+	GunLodRenderDistance = 4
 	#The existence time of bullet hole particles, in tick
 	#Range: > 0
 	BulletHoleParticleLife = 400
