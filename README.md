@@ -1,3 +1,5 @@
+# 中文版
+
 **高度自定义，重新定义你的大逃杀战场**
 
 厌倦了千篇一律的收缩毒圈？该整合包为你带来了前所未有的自由度，让你亲手塑造属于自己的大逃杀体验。从精致逼真的枪械到高度自定义的多功能区域——每场战斗都将充满无限可能。
@@ -28,11 +30,13 @@
 - Shoulder Surfing Reloaded by \_ForgeUser21552638, Exopandora
 
 ### 辅助
-让生活更轻松
+让游戏过程更便捷
+- Hidden Names by pitbox46
 - JourneyMap by techbrew, Mysticdrew, meme_sapiens
 - Kiwi by Snownee
 - Mouse Tweaks by YaLTeR
 - Passable Foliage by Snownee
+- ReForgedPlay by Ferri_Arnus
 - Trample Stopper by UnRealDinnerbone, nanitedev
 - WorldEdit by sk89q, me4502, wizjany_, octylFractal
 

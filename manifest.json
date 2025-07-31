@@ -11,9 +11,14 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Custom BattleRoyale Complete",
-  "version": "0.2.6",
+  "version": "0.2.6-1",
   "author": "",
   "files": [
+    {
+      "projectID": 479134,
+      "fileID": 6293591,
+      "required": true
+    },
     {
       "projectID": 351441,
       "fileID": 4613538,
@@ -52,6 +57,11 @@
     {
       "projectID": 627557,
       "fileID": 6515577,
+      "required": true
+    },
+    {
+      "projectID": 1018692,
+      "fileID": 5637596,
       "required": true
     },
     {

@@ -2,10 +2,10 @@
 [gun]
 	#The default fire sound range (block)
 	#Range: > 0
-	DefaultGunFireSoundDistance = 64
+	DefaultGunFireSoundDistance = 384
 	#The silencer default fire sound range (block)
 	#Range: > 0
-	DefaultGunSilenceSoundDistance = 16
+	DefaultGunSilenceSoundDistance = 256
 	#The range (block) of other gun sound, reloading sound etc.
 	#Range: > 0
 	DefaultGunOtherSoundDistance = 16
@@ -16,14 +16,14 @@
 
 [ammo]
 	#Warning: Ammo with explosive properties can break blocks
-	ExplosiveAmmoDestroysBlock = true
+	ExplosiveAmmoDestroysBlock = false
 	#Warning: Ammo with explosive properties can set the surroundings on fire
 	ExplosiveAmmoFire = false
 	#Ammo with explosive properties can add knockback effect
-	ExplosiveAmmoKnockBack = true
+	ExplosiveAmmoKnockBack = false
 	#The distance at which the explosion effect can be seen
 	#Range: > 0
-	ExplosiveAmmoVisibleDistance = 192
+	ExplosiveAmmoVisibleDistance = 256
 	#Those blocks that the ammo can pass through
 	PassThroughBlocks = []
 	#Whether a ammo can break the glass
@@ -35,7 +35,7 @@
 	#Global bullet speed modifier, the init speed of the bullet will be multiplied by this value, default is 2.0
 	#This is to compensate the side effects introduced while fixing the shooter variable input issue
 	#Range: 0.01 ~ 20.0
-	GlobalBulletSpeedModifier = 2.0
+	GlobalBulletSpeedModifier = 1.0
 
 [other]
 	#Deprecated: now move to .minecraft/tacz/tacz-pre.toml or <your version>/tacz/tacz-pre.toml
@@ -43,7 +43,7 @@
 	DefaultPackDebug = false
 	#The farthest sound distance of the target, including minecarts type
 	#Range: > 0
-	TargetSoundDistance = 128
+	TargetSoundDistance = 256
 	#DEV: Server hitbox offset (If the hitbox is ahead, fill in a negative number)
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	ServerHitboxOffset = 3.0
