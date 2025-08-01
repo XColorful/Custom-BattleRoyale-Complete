@@ -1,5 +1,3 @@
-# 中文版
-
 **高度自定义，重新定义你的大逃杀战场**
 
 厌倦了千篇一律的收缩毒圈？该整合包为你带来了前所未有的自由度，让你亲手塑造属于自己的大逃杀体验。从精致逼真的枪械到高度自定义的多功能区域——每场战斗都将充满无限可能。
@@ -15,15 +13,19 @@
 
 ### 大逃杀机制
 无需原版边界、提供丰富且独立于原版的游戏机制
+
 - Custom BattleRoyale by XiaoColorful
 
 ### 物品
 枪战为主的大逃杀、可替换为其他模组
+
 - [TaCZ] LesRaisins Tactical Equipments by xjqshm, LesRaisinsStudio
 - [TaCZ] Timeless and Classics Zero by nekocrane, maydaymemory, TartaricAcid, f1zeil
+- Gliders by Jeryn, tamlighter, TommyCBricks
 
 ### 视觉优化
 经典大逃杀游戏的视角
+
 - Camera Overhaul Reforged by ConfusedFool93
 - ItemPhysics Full by CreativeMD
 - Pick Up Notifier by Fuzs
@@ -31,6 +33,7 @@
 
 ### 辅助
 让游戏过程更便捷
+
 - Hidden Names by pitbox46
 - JourneyMap by techbrew, Mysticdrew, meme_sapiens
 - Kiwi by Snownee
@@ -41,9 +44,13 @@
 - WorldEdit by sk89q, me4502, wizjany_, octylFractal
 
 ### 整合包模组依赖项
+
 - Cloth Config API by shedaniel, LinkielsBetterThanK9
+- CreativeCore by CreativeMD
+- Puzzles Lib by Fuzs
 - Trenzalore by UnRealDinnerbone
 
 ### 光影
 美观又不失兼容性
+
 - Complementary Shaders - Reimagined by EminGT
