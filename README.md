@@ -30,16 +30,22 @@
 - ItemPhysics Full by CreativeMD
 - Pick Up Notifier by Fuzs
 - Shoulder Surfing Reloaded by \_ForgeUser21552638, Exopandora
+- Sodium/Embeddium Dynamic Lights by Txni
 
 ### 辅助
 让游戏过程更便捷
 
+- Embeddium by FiniteReality
 - Hidden Names by pitbox46
+- Inventory Tweaks - ReFoxed by LobsterJonn
 - JourneyMap by techbrew, Mysticdrew, meme_sapiens
 - Kiwi by Snownee
+- ModernFix by embeddedt
 - Mouse Tweaks by YaLTeR
 - Passable Foliage by Snownee
+- Presence Footsteps (Forge) by Paint_Ninja
 - ReForgedPlay by Ferri_Arnus
+- Sound Physics Remastered by henkelmax
 - Trample Stopper by UnRealDinnerbone, nanitedev
 - WorldEdit by sk89q, me4502, wizjany_, octylFractal
 
@@ -48,6 +54,7 @@
 - Cloth Config API by shedaniel, LinkielsBetterThanK9
 - CreativeCore by CreativeMD
 - Puzzles Lib by Fuzs
+- Soduim/Embeddium Options API
 - Trenzalore by UnRealDinnerbone
 
 ### 光影

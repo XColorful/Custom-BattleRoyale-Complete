@@ -1,16 +1,15 @@
 [
   {
     "lootId": 0,
-    "default": true,
-    "name": "Widespread common loot",
+    "name": "Widespread common loot (extra rare)",
     "color": "#FFFFFFAA",
     "entry": {
       "lootType": "multi",
       "entries": [
         {
           "lootType": "repeat",
-          "min": 1,
-          "max": 3,
+          "min": 3,
+          "max": 6,
           "entry": {
             "lootType": "weight",
             "entries": [
@@ -2095,6 +2094,548 @@
                 }
               ]
             }
+          }
+        },
+        {
+          "lootType": "extra",
+          "countEmpty": false,
+          "keepCheck": true,
+          "check": {
+            "lootType": "random",
+            "chance": 0.01,
+            "entry": {
+              "lootType": "multi",
+              "entries": [
+                {
+                  "lootType": "weight",
+                  "entries": [
+                    {
+                      "weight": 15.0,
+                      "entry": {
+                        "lootType": "weight",
+                        "entries": [
+                          {
+                            "weight": 5.0,
+                            "entry": {
+                              "lootType": "multi",
+                              "entries": [
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:modern_kinetic_gun",
+                                  "count": 1,
+                                  "nbt": "{GunId:\"tacz:scar_h\",GunFireMode:\"AUTO\"}"
+                                },
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:ammo",
+                                  "count": 20,
+                                  "nbt": "{AmmoId:\"tacz:308\"}"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "weight": 5.0,
+                            "entry": {
+                              "lootType": "multi",
+                              "entries": [
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:modern_kinetic_gun",
+                                  "count": 1,
+                                  "nbt": "{GunId:\"tacz:hk_g3\",GunFireMode:\"AUTO\"}"
+                                },
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:ammo",
+                                  "count": 20,
+                                  "nbt": "{AmmoId:\"tacz:308\"}"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "weight": 10.0,
+                            "entry": {
+                              "lootType": "multi",
+                              "entries": [
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:modern_kinetic_gun",
+                                  "count": 1,
+                                  "nbt": "{GunId:\"tacz:type_81\",GunFireMode:\"AUTO\"}"
+                                },
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:ammo",
+                                  "count": 30,
+                                  "nbt": "{AmmoId:\"tacz:762x39\"}"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "weight": 10.0,
+                            "entry": {
+                              "lootType": "multi",
+                              "entries": [
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:modern_kinetic_gun",
+                                  "count": 1,
+                                  "nbt": "{GunId:\"tacz:ak47\",GunFireMode:\"AUTO\"}"
+                                },
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:ammo",
+                                  "count": 30,
+                                  "nbt": "{AmmoId:\"tacz:762x39\"}"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "weight": 5.0,
+                      "entry": {
+                        "lootType": "weight",
+                        "entries": [
+                          {
+                            "weight": 5.0,
+                            "entry": {
+                              "lootType": "multi",
+                              "entries": [
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:modern_kinetic_gun",
+                                  "count": 1,
+                                  "nbt": "{GunId:\"tacz:m95\",GunFireMode:\"SEMI\"}"
+                                },
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:ammo",
+                                  "count": 5,
+                                  "nbt": "{AmmoId:\"tacz:50bmg\"}"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "weight": 10.0,
+                            "entry": {
+                              "lootType": "multi",
+                              "entries": [
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:modern_kinetic_gun",
+                                  "count": 1,
+                                  "nbt": "{GunId:\"tacz:m107\",GunFireMode:\"SEMI\"}"
+                                },
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:ammo",
+                                  "count": 10,
+                                  "nbt": "{AmmoId:\"tacz:50bmg\"}"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "weight": 30.0,
+                            "entry": {
+                              "lootType": "multi",
+                              "entries": [
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:modern_kinetic_gun",
+                                  "count": 1,
+                                  "nbt": "{GunId:\"tacz:ai_awp\",GunFireMode:\"SEMI\"}"
+                                },
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:ammo",
+                                  "count": 5,
+                                  "nbt": "{AmmoId:\"tacz:338\"}"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "weight": 40.0,
+                            "entry": {
+                              "lootType": "multi",
+                              "entries": [
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:modern_kinetic_gun",
+                                  "count": 1,
+                                  "nbt": "{GunId:\"tacz:m700\",GunFireMode:\"SEMI\"}"
+                                },
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:ammo",
+                                  "count": 5,
+                                  "nbt": "{AmmoId:\"tacz:30_06\"}"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "weight": 10.0,
+                      "entry": {
+                        "lootType": "weight",
+                        "entries": [
+                          {
+                            "weight": 5.0,
+                            "entry": {
+                              "lootType": "multi",
+                              "entries": [
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:modern_kinetic_gun",
+                                  "count": 1,
+                                  "nbt": "{GunId:\"tacz:mk14\",GunFireMode:\"SEMI\"}"
+                                },
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:ammo",
+                                  "count": 10,
+                                  "nbt": "{AmmoId:\"tacz:308\"}"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "weight": 10.0,
+                            "entry": {
+                              "lootType": "multi",
+                              "entries": [
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:modern_kinetic_gun",
+                                  "count": 1,
+                                  "nbt": "{GunId:\"tacz:sks_tactical\",GunFireMode:\"SEMI\"}"
+                                },
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:ammo",
+                                  "count": 10,
+                                  "nbt": "{AmmoId:\"tacz:762x39\"}"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "weight": 5.0,
+                      "entry": {
+                        "lootType": "weight",
+                        "entries": [
+                          {
+                            "weight": 5.0,
+                            "entry": {
+                              "lootType": "multi",
+                              "entries": [
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:modern_kinetic_gun",
+                                  "count": 1,
+                                  "nbt": "{GunId:\"tacz:p90\",GunFireMode:\"AUTO\"}"
+                                },
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:ammo",
+                                  "count": 50,
+                                  "nbt": "{AmmoId:\"tacz:57x28\"}"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "weight": 10.0,
+                            "entry": {
+                              "lootType": "multi",
+                              "entries": [
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:modern_kinetic_gun",
+                                  "count": 1,
+                                  "nbt": "{GunId:\"tacz:vector45\",GunFireMode:\"AUTO\"}"
+                                },
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:ammo",
+                                  "count": 20,
+                                  "nbt": "{AmmoId:\"tacz:45acp\"}"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "lootType": "weight",
+                  "entries": [
+                    {
+                      "weight": 30.0,
+                      "entry": {
+                        "lootType": "weight",
+                        "entries": [
+                          {
+                            "weight": 5.0,
+                            "entry": {
+                              "lootType": "item",
+                              "item": "tacz:attachment",
+                              "count": 1,
+                              "nbt": "{AttachmentId:\"tacz:ammo_mod_i\"}"
+                            }
+                          },
+                          {
+                            "weight": 5.0,
+                            "entry": {
+                              "lootType": "item",
+                              "item": "tacz:attachment",
+                              "count": 1,
+                              "nbt": "{AttachmentId:\"tacz:ammo_mod_hp\"}"
+                            }
+                          },
+                          {
+                            "weight": 5.0,
+                            "entry": {
+                              "lootType": "item",
+                              "item": "tacz:attachment",
+                              "count": 1,
+                              "nbt": "{AttachmentId:\"tacz:ammo_mod_he\"}"
+                            }
+                          },
+                          {
+                            "weight": 5.0,
+                            "entry": {
+                              "lootType": "item",
+                              "item": "tacz:attachment",
+                              "count": 1,
+                              "nbt": "{AttachmentId:\"tacz:ammo_mod_fmj\"}"
+                            }
+                          },
+                          {
+                            "weight": 10.0,
+                            "entry": {
+                              "lootType": "item",
+                              "item": "tacz:attachment",
+                              "count": 1,
+                              "nbt": "{AttachmentId:\"tacz:sniper_extended_mag_3\"}"
+                            }
+                          },
+                          {
+                            "weight": 10.0,
+                            "entry": {
+                              "lootType": "item",
+                              "item": "tacz:attachment",
+                              "count": 1,
+                              "nbt": "{AttachmentId:\"tacz:light_extended_mag_3\"}"
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "weight": 30.0,
+                      "entry": {
+                        "lootType": "weight",
+                        "entries": [
+                          {
+                            "weight": 5.0,
+                            "entry": {
+                              "lootType": "item",
+                              "item": "tacz:attachment",
+                              "count": 1,
+                              "nbt": "{AttachmentId:\"tacz:scope_mk5hd\"}"
+                            }
+                          },
+                          {
+                            "weight": 10.0,
+                            "entry": {
+                              "lootType": "item",
+                              "item": "tacz:attachment",
+                              "count": 1,
+                              "nbt": "{AttachmentId:\"tacz:scope_standard_8x\"}"
+                            }
+                          },
+                          {
+                            "weight": 15.0,
+                            "entry": {
+                              "lootType": "item",
+                              "item": "tacz:attachment",
+                              "count": 1,
+                              "nbt": "{AttachmentId:\"tacz:scope_vudu\"}"
+                            }
+                          },
+                          {
+                            "weight": 15.0,
+                            "entry": {
+                              "lootType": "item",
+                              "item": "tacz:attachment",
+                              "count": 1,
+                              "nbt": "{AttachmentId:\"tacz:scope_lpvo_1_6\"}"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                },
+                {
+                  "lootType": "weight",
+                  "entries": [
+                    {
+                      "weight": 5.0,
+                      "entry": {
+                        "lootType": "item",
+                        "item": "tacz:ammo",
+                        "count": 10,
+                        "nbt": "{AmmoId:\"tacz:50bmg\"}"
+                      }
+                    },
+                    {
+                      "weight": 10.0,
+                      "entry": {
+                        "lootType": "item",
+                        "item": "tacz:ammo",
+                        "count": 10,
+                        "nbt": "{AmmoId:\"tacz:338\"}"
+                      }
+                    },
+                    {
+                      "weight": 10.0,
+                      "entry": {
+                        "lootType": "item",
+                        "item": "tacz:ammo",
+                        "count": 50,
+                        "nbt": "{AmmoId:\"tacz:57x28\"}"
+                      }
+                    },
+                    {
+                      "weight": 3.0,
+                      "entry": {
+                        "lootType": "item",
+                        "item": "tacz:ammo",
+                        "count": 40,
+                        "nbt": "{AmmoId:\"tacz:308\"}"
+                      }
+                    },
+                    {
+                      "weight": 12.0,
+                      "entry": {
+                        "lootType": "item",
+                        "item": "tacz:ammo",
+                        "count": 30,
+                        "nbt": "{AmmoId:\"tacz:308\"}"
+                      }
+                    },
+                    {
+                      "weight": 20.0,
+                      "entry": {
+                        "lootType": "item",
+                        "item": "tacz:ammo",
+                        "count": 20,
+                        "nbt": "{AmmoId:\"tacz:308\"}"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "lootType": "multi",
+                  "entries": [
+                    {
+                      "lootType": "weight",
+                      "entries": [
+                        {
+                          "weight": 70.0,
+                          "entry": {
+                            "lootType": "item",
+                            "item": "minecraft:iron_helmet",
+                            "count": 1,
+                            "nbt": "{Damage:147,Enchantments:[{id:\"minecraft:protection\",lvl:5}]}"
+                          }
+                        },
+                        {
+                          "weight": 30.0,
+                          "entry": {
+                            "lootType": "item",
+                            "item": "minecraft:netherite_helmet",
+                            "count": 1,
+                            "nbt": "{Damage:368,Enchantments:[{id:\"minecraft:protection\",lvl:8}]}"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "lootType": "weight",
+                      "entries": [
+                        {
+                          "weight": 60.0,
+                          "entry": {
+                            "lootType": "item",
+                            "item": "minecraft:iron_chestplate",
+                            "count": 1,
+                            "nbt": "{Damage:217,Enchantments:[{id:\"minecraft:protection\",lvl:3}]}"
+                          }
+                        },
+                        {
+                          "weight": 40.0,
+                          "entry": {
+                            "lootType": "item",
+                            "item": "minecraft:diamond_chestplate",
+                            "count": 1,
+                            "nbt": "{Damage:479,Enchantments:[{id:\"minecraft:protection\",lvl:5}]}"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "lootType": "weight",
+                      "entries": [
+                        {
+                          "weight": 55.0,
+                          "entry": {
+                            "lootType": "item",
+                            "item": "minecraft:iron_leggings",
+                            "count": 1,
+                            "nbt": "{Damage:205,Enchantments:[{id:\"minecraft:protection\",lvl:3}]}"
+                          }
+                        },
+                        {
+                          "weight": 45.0,
+                          "entry": {
+                            "lootType": "item",
+                            "item": "minecraft:diamond_leggings",
+                            "count": 1,
+                            "nbt": "{Damage:450,Enchantments:[{id:\"minecraft:protection\",lvl:5}]}"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "extra": {
+            "lootType": "message",
+            "onlyGamePlayer": false,
+            "sendPosition": true,
+            "message": "Rare loot generated！",
+            "messageColor": "#FF0000"
           }
         }
       ]

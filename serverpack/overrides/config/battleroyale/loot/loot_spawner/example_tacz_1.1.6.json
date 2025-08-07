@@ -15,12 +15,12 @@
             "lootType": "weight",
             "entries": [
               {
-                "weight": 32.0,
+                "weight": 30.0,
                 "entry": {
                   "lootType": "weight",
                   "entries": [
                     {
-                      "weight": 25.0,
+                      "weight": 23.0,
                       "entry": {
                         "lootType": "weight",
                         "entries": [
@@ -432,7 +432,7 @@
                       }
                     },
                     {
-                      "weight": 25.0,
+                      "weight": 22.0,
                       "entry": {
                         "lootType": "weight",
                         "entries": [
@@ -688,98 +688,133 @@
                       }
                     },
                     {
-                      "weight": 6.0,
+                      "weight": 11.0,
                       "entry": {
                         "lootType": "weight",
                         "entries": [
                           {
-                            "weight": 2.0,
+                            "weight": 5.0,
                             "entry": {
                               "lootType": "item",
-                              "item": "trident",
+                              "item": "lrtactical:melee",
                               "count": 1,
-                              "nbt": "{}"
-                            }
-                          },
-                          {
-                            "weight": 2.0,
-                            "entry": {
-                              "lootType": "item",
-                              "item": "shield",
-                              "count": 1,
-                              "nbt": "{}"
-                            }
-                          },
-                          {
-                            "weight": 3.0,
-                            "entry": {
-                              "lootType": "item",
-                              "item": "minecraft:diamond_sword",
-                              "count": 1,
-                              "nbt": "{}"
-                            }
-                          },
-                          {
-                            "weight": 3.0,
-                            "entry": {
-                              "lootType": "item",
-                              "item": "minecraft:diamond_axe",
-                              "count": 1,
-                              "nbt": "{}"
+                              "nbt": "{MeleeWeaponId:\"lrtactical:baseball_bat\"}"
                             }
                           },
                           {
                             "weight": 10.0,
                             "entry": {
                               "lootType": "item",
-                              "item": "minecraft:iron_sword",
+                              "item": "lrtactical:melee",
                               "count": 1,
-                              "nbt": "{}"
-                            }
-                          },
-                          {
-                            "weight": 10.0,
-                            "entry": {
-                              "lootType": "item",
-                              "item": "minecraft:iron_axe",
-                              "count": 1,
-                              "nbt": "{}"
+                              "nbt": "{MeleeWeaponId:\"lrtactical:karambit\"}"
                             }
                           },
                           {
                             "weight": 15.0,
                             "entry": {
                               "lootType": "item",
-                              "item": "minecraft:stone_sword",
+                              "item": "lrtactical:melee",
                               "count": 1,
-                              "nbt": "{}"
+                              "nbt": "{MeleeWeaponId:\"lrtactical:dagger\"}"
                             }
                           },
                           {
-                            "weight": 15.0,
+                            "weight": 70.0,
                             "entry": {
-                              "lootType": "item",
-                              "item": "minecraft:stone_axe",
-                              "count": 1,
-                              "nbt": "{}"
-                            }
-                          },
-                          {
-                            "weight": 20.0,
-                            "entry": {
-                              "lootType": "item",
-                              "item": "minecraft:wooden_sword",
-                              "count": 1,
-                              "nbt": "{}"
-                            }
-                          },
-                          {
-                            "weight": 20.0,
-                            "entry": {
-                              "lootType": "item",
-                              "item": "minecraft:wooden_axe",
-                              "count": 1,
-                              "nbt": "{}"
+                              "lootType": "weight",
+                              "entries": [
+                                {
+                                  "weight": 2.0,
+                                  "entry": {
+                                    "lootType": "item",
+                                    "item": "trident",
+                                    "count": 1,
+                                    "nbt": "{}"
+                                  }
+                                },
+                                {
+                                  "weight": 2.0,
+                                  "entry": {
+                                    "lootType": "item",
+                                    "item": "shield",
+                                    "count": 1,
+                                    "nbt": "{}"
+                                  }
+                                },
+                                {
+                                  "weight": 3.0,
+                                  "entry": {
+                                    "lootType": "item",
+                                    "item": "minecraft:diamond_sword",
+                                    "count": 1,
+                                    "nbt": "{}"
+                                  }
+                                },
+                                {
+                                  "weight": 3.0,
+                                  "entry": {
+                                    "lootType": "item",
+                                    "item": "minecraft:diamond_axe",
+                                    "count": 1,
+                                    "nbt": "{}"
+                                  }
+                                },
+                                {
+                                  "weight": 10.0,
+                                  "entry": {
+                                    "lootType": "item",
+                                    "item": "minecraft:iron_sword",
+                                    "count": 1,
+                                    "nbt": "{}"
+                                  }
+                                },
+                                {
+                                  "weight": 10.0,
+                                  "entry": {
+                                    "lootType": "item",
+                                    "item": "minecraft:iron_axe",
+                                    "count": 1,
+                                    "nbt": "{}"
+                                  }
+                                },
+                                {
+                                  "weight": 15.0,
+                                  "entry": {
+                                    "lootType": "item",
+                                    "item": "minecraft:stone_sword",
+                                    "count": 1,
+                                    "nbt": "{}"
+                                  }
+                                },
+                                {
+                                  "weight": 15.0,
+                                  "entry": {
+                                    "lootType": "item",
+                                    "item": "minecraft:stone_axe",
+                                    "count": 1,
+                                    "nbt": "{}"
+                                  }
+                                },
+                                {
+                                  "weight": 20.0,
+                                  "entry": {
+                                    "lootType": "item",
+                                    "item": "minecraft:wooden_sword",
+                                    "count": 1,
+                                    "nbt": "{}"
+                                  }
+                                },
+                                {
+                                  "weight": 20.0,
+                                  "entry": {
+                                    "lootType": "item",
+                                    "item": "minecraft:wooden_axe",
+                                    "count": 1,
+                                    "nbt": "{}"
+                                  }
+                                }
+                              ]
                             }
                           }
                         ]
@@ -1702,26 +1737,26 @@
                   "lootType": "weight",
                   "entries": [
                     {
-                      "weight": 50.0,
+                      "weight": 45.0,
                       "entry": {
                         "lootType": "weight",
                         "entries": [
                           {
-                            "weight": 65.0,
-                            "entry": {
-                              "lootType": "item",
-                              "item": "minecraft:leather_chestplate",
-                              "count": 1,
-                              "nbt": "{Damage:53}"
-                            }
-                          },
-                          {
-                            "weight": 30.0,
+                            "weight": 55.0,
                             "entry": {
                               "lootType": "item",
                               "item": "minecraft:chainmail_chestplate",
                               "count": 1,
-                              "nbt": "{Damage:233}"
+                              "nbt": "{Damage:227,Enchantments:[{id:\"minecraft:protection\",lvl:1}]}"
+                            }
+                          },
+                          {
+                            "weight": 40.0,
+                            "entry": {
+                              "lootType": "item",
+                              "item": "minecraft:iron_chestplate",
+                              "count": 1,
+                              "nbt": "{Damage:217,Enchantments:[{id:\"minecraft:protection\",lvl:3}]}"
                             }
                           },
                           {
@@ -1730,7 +1765,7 @@
                               "lootType": "item",
                               "item": "minecraft:diamond_chestplate",
                               "count": 1,
-                              "nbt": "{Damage:509}"
+                              "nbt": "{Damage:479,Enchantments:[{id:\"minecraft:protection\",lvl:5}]}"
                             }
                           }
                         ]
@@ -1745,44 +1780,44 @@
                             "weight": 65.0,
                             "entry": {
                               "lootType": "item",
-                              "item": "minecraft:leather_leggings",
+                              "item": "minecraft:chainmail_leggings",
                               "count": 1,
-                              "nbt": "{Damage:66}"
+                              "nbt": "{Damage:215,Enchantments:[{id:\"minecraft:protection\",lvl:1}]}"
                             }
                           },
                           {
                             "weight": 35.0,
                             "entry": {
                               "lootType": "item",
-                              "item": "minecraft:chainmail_leggings",
+                              "item": "minecraft:iron_leggings",
                               "count": 1,
-                              "nbt": "{Damage:227}"
+                              "nbt": "{Damage:205,Enchantments:[{id:\"minecraft:protection\",lvl:3}]}"
                             }
                           }
                         ]
                       }
                     },
                     {
-                      "weight": 20.0,
+                      "weight": 25.0,
                       "entry": {
                         "lootType": "weight",
                         "entries": [
                           {
-                            "weight": 65.0,
-                            "entry": {
-                              "lootType": "item",
-                              "item": "minecraft:leather_helmet",
-                              "count": 1,
-                              "nbt": "{Damage:50}"
-                            }
-                          },
-                          {
-                            "weight": 35.0,
+                            "weight": 55.0,
                             "entry": {
                               "lootType": "item",
                               "item": "minecraft:chainmail_helmet",
                               "count": 1,
-                              "nbt": "{Damage:169}"
+                              "nbt": "{Damage:157,Enchantments:[{id:\"minecraft:protection\",lvl:3}]}"
+                            }
+                          },
+                          {
+                            "weight": 45.0,
+                            "entry": {
+                              "lootType": "item",
+                              "item": "minecraft:iron_helmet",
+                              "count": 1,
+                              "nbt": "{Damage:147,Enchantments:[{id:\"minecraft:protection\",lvl:5}]}"
                             }
                           }
                         ]
@@ -1822,30 +1857,12 @@
                         "count": 1,
                         "nbt": "{Potion:\"minecraft:empty\",display:{Name:\u0027{\"text\":\"Med Kit\",\"color\":\"blue\",\"italic\":false}\u0027},CustomPotionEffects:[{Id:10,Amplifier:3,Duration:120,ShowParticles:0b,Ambient:0b}]}"
                       }
-                    },
-                    {
-                      "weight": 27.0,
-                      "entry": {
-                        "lootType": "empty"
-                      }
-                    },
-                    {
-                      "weight": 24.0,
-                      "entry": {
-                        "lootType": "empty"
-                      }
-                    },
-                    {
-                      "weight": 3.0,
-                      "entry": {
-                        "lootType": "empty"
-                      }
                     }
                   ]
                 }
               },
               {
-                "weight": 8.0,
+                "weight": 10.0,
                 "entry": {
                   "lootType": "weight",
                   "entries": [
@@ -1853,33 +1870,36 @@
                       "weight": 16.0,
                       "entry": {
                         "lootType": "item",
-                        "item": "superbwarfare:hand_grenade",
+                        "item": "lrtactical:throwable",
                         "count": 1,
-                        "nbt": ""
+                        "nbt": "{ThrowableId:\"lrtactical:m67\"}"
                       }
                     },
                     {
                       "weight": 26.0,
                       "entry": {
-                        "lootType": "empty"
+                        "lootType": "item",
+                        "item": "lrtactical:throwable",
+                        "count": 1,
+                        "nbt": "{ThrowableId:\"lrtactical:smoke_grenade\"}"
                       }
                     },
                     {
                       "weight": 18.0,
                       "entry": {
-                        "lootType": "empty"
+                        "lootType": "item",
+                        "item": "lrtactical:throwable",
+                        "count": 1,
+                        "nbt": "{ThrowableId:\"lrtactical:molotov\"}"
                       }
                     },
                     {
                       "weight": 22.0,
                       "entry": {
-                        "lootType": "empty"
-                      }
-                    },
-                    {
-                      "weight": 3.0,
-                      "entry": {
-                        "lootType": "empty"
+                        "lootType": "item",
+                        "item": "lrtactical:throwable",
+                        "count": 1,
+                        "nbt": "{ThrowableId:\"lrtactical:flash_grenade\"}"
                       }
                     },
                     {
@@ -1889,12 +1909,6 @@
                         "item": "vc_gliders:paraglider_wood",
                         "count": 1,
                         "nbt": "{Damage:25}"
-                      }
-                    },
-                    {
-                      "weight": 10.0,
-                      "entry": {
-                        "lootType": "empty"
                       }
                     }
                   ]
@@ -2551,44 +2565,21 @@
                 "lootType": "weight",
                 "entries": [
                   {
-                    "weight": 80.0,
-                    "entry": {
-                      "lootType": "item",
-                      "item": "minecraft:chainmail_helmet",
-                      "count": 1,
-                      "nbt": "{Damage:169}"
-                    }
-                  },
-                  {
-                    "weight": 20.0,
-                    "entry": {
-                      "lootType": "item",
-                      "item": "minecraft:diamond_helmet",
-                      "count": 1,
-                      "nbt": "{Damage:356}"
-                    }
-                  }
-                ]
-              },
-              {
-                "lootType": "weight",
-                "entries": [
-                  {
                     "weight": 70.0,
                     "entry": {
                       "lootType": "item",
-                      "item": "minecraft:chainmail_chestplate",
+                      "item": "minecraft:iron_helmet",
                       "count": 1,
-                      "nbt": "{Damage:233}"
+                      "nbt": "{Damage:147,Enchantments:[{id:\"minecraft:protection\",lvl:5}]}"
                     }
                   },
                   {
                     "weight": 30.0,
                     "entry": {
                       "lootType": "item",
-                      "item": "minecraft:diamond_chestplate",
+                      "item": "minecraft:netherite_helmet",
                       "count": 1,
-                      "nbt": "{Damage:509}"
+                      "nbt": "{Damage:368,Enchantments:[{id:\"minecraft:protection\",lvl:8}]}"
                     }
                   }
                 ]
@@ -2597,21 +2588,44 @@
                 "lootType": "weight",
                 "entries": [
                   {
-                    "weight": 75.0,
+                    "weight": 60.0,
                     "entry": {
                       "lootType": "item",
-                      "item": "minecraft:chainmail_leggings",
+                      "item": "minecraft:iron_chestplate",
                       "count": 1,
-                      "nbt": "{Damage:227}"
+                      "nbt": "{Damage:217,Enchantments:[{id:\"minecraft:protection\",lvl:3}]}"
                     }
                   },
                   {
-                    "weight": 25.0,
+                    "weight": 40.0,
+                    "entry": {
+                      "lootType": "item",
+                      "item": "minecraft:diamond_chestplate",
+                      "count": 1,
+                      "nbt": "{Damage:479,Enchantments:[{id:\"minecraft:protection\",lvl:5}]}"
+                    }
+                  }
+                ]
+              },
+              {
+                "lootType": "weight",
+                "entries": [
+                  {
+                    "weight": 55.0,
+                    "entry": {
+                      "lootType": "item",
+                      "item": "minecraft:iron_leggings",
+                      "count": 1,
+                      "nbt": "{Damage:205,Enchantments:[{id:\"minecraft:protection\",lvl:3}]}"
+                    }
+                  },
+                  {
+                    "weight": 45.0,
                     "entry": {
                       "lootType": "item",
                       "item": "minecraft:diamond_leggings",
                       "count": 1,
-                      "nbt": "{Damage:478}"
+                      "nbt": "{Damage:450,Enchantments:[{id:\"minecraft:protection\",lvl:5}]}"
                     }
                   }
                 ]
