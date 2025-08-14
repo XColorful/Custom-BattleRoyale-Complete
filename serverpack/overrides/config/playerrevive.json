@@ -3,9 +3,9 @@
   "bleeding": {
     "bleedTime": 1200,
     "triggerForCreative": true,
-    "bleedingMessage": false,
-    "bleedingMessageTrackingOnly": true,
-    "shouldGlow": true,
+    "bleedingMessage": true,
+    "bleedingMessageTrackingOnly": false,
+    "shouldGlow": false,
     "bleedingEffects": [
       {
         "effect": "minecraft:slowness",
@@ -16,7 +16,7 @@
     ],
     "affectHunger": true,
     "remainingHunger": 6,
-    "initialDamageCooldown": 40,
+    "initialDamageCooldown": 30,
     "bleedingHealth": 20,
     "disableMobDamage": true,
     "disablePlayerDamage": false,
@@ -25,7 +25,7 @@
     "changePermissionLevel": false,
     "permissionLevel": 0,
     "canBePushed": true,
-    "disableAllGUIAccess": true,
+    "disableAllGUIAccess": false,
     "disableInventoryAccess": true,
     "disableChatAccess": false,
     "disableServerCommands": false

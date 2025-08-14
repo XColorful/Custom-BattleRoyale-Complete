@@ -113,7 +113,7 @@
                                   "lootType": "item",
                                   "item": "tacz:modern_kinetic_gun",
                                   "count": 1,
-                                  "nbt": "{AttachmentEXTENDED_MAG: {id: \"minecraft:air\", Count:0b, tag: {struck:0b, glide:0b}}, HasBulletInBarrel: 0b, AttachmentSCOPE: {id: \"minecraft:air\", Count: 0b, tag: {struck: 0b, glide: 0b}}, AttachmentMUZZLE: {id: \"minecraft:air\", Count: 0b, tag: {struck: 0b, glide: 0b}}, AttachmentLASER: {id: \"minecraft:air\", Count: 0b, tag: {struck: 0b, glide: 0b}}, GunFireMode: \"AUTO\", GunCurrentAmmoCount: 0, AttachmentGRIP: {id: \"minecraft:air\", Count: 0b, tag: {struck: 0b, glide: 0b}}, AttachmentSTOCK: {id: \"minecraft:air\", Count: 0b, tag: {struck:0b, glide:0b}}, GunId: \"tacz:m16a4\"}"
+                                  "nbt": "{AttachmentEXTENDED_MAG: {id: \"minecraft:air\", Count:0b, tag: {struck:0b, glide:0b}}, HasBulletInBarrel: 0b, AttachmentSCOPE: {id: \"minecraft:air\", Count: 0b, tag: {struck: 0b, glide: 0b}}, AttachmentMUZZLE: {id: \"minecraft:air\", Count: 0b, tag: {struck: 0b, glide: 0b}}, AttachmentLASER: {id: \"minecraft:air\", Count: 0b, tag: {struck: 0b, glide: 0b}}, GunFireMode: \"BURST\", GunCurrentAmmoCount: 0, AttachmentGRIP: {id: \"minecraft:air\", Count: 0b, tag: {struck: 0b, glide: 0b}}, AttachmentSTOCK: {id: \"minecraft:air\", Count: 0b, tag: {struck:0b, glide:0b}}, GunId: \"tacz:m16a4\"}"
                                 },
                                 {
                                   "lootType": "item",

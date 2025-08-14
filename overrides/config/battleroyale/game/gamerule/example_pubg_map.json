@@ -1,7 +1,6 @@
 [
   {
     "gameId": 0,
-    "default": true,
     "gameName": "Erangel 100 4",
     "color": "#FFFFFFAA",
     "battleroyale": {
@@ -13,8 +12,11 @@
       "lobbyCenter": "3816.000000,14.000000,-3624.000000",
       "lobbyDimension": "555.000000,555.000000,555.000000",
       "lobbyMuteki": true,
+      "lobbyHeal": true,
+      "lobbyChangeGamemode": true,
       "recordGameStats": true,
-      "autoJoinGame": true
+      "autoJoinGame": true,
+      "clearInventory": true
     },
     "minecraft": {
       "adventureMode": true,
@@ -28,10 +30,12 @@
       "fallDamage": true,
       "tntExplodes": false,
       "spectatorGenerateChunks": false,
+      "clearInventory": true,
+      "keepInventory": false,
       "timeSet": 5000
     },
     "game": {
-      "teamMessageExpireSeconds": 300000,
+      "teamMessageExpireSeconds": 300,
       "teamColors": [
         "#E9ECEC",
         "#F07613",
@@ -53,6 +57,22 @@
       "maxPlayerInvalidTime": 1200,
       "maxBotInvalidTime": 200,
       "removeInvalidTeam": false,
+      "friendlyFire": false,
+      "downDamage": [
+        0.3333,
+        0.4444,
+        0.6667,
+        1.3333,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0
+      ],
+      "downDamageFrequency": 20,
+      "onlyGamePlayerSpectate": false,
+      "spectateAfterTeamEliminated": true,
+      "teleportInterfererToLobby": true,
       "allowRemainingBot": true,
       "keepTeamAfterGame": true,
       "teleportAfterGame": true,
@@ -77,8 +97,11 @@
       "lobbyCenter": "3816.000000,14.000000,-3624.000000",
       "lobbyDimension": "555.000000,555.000000,555.000000",
       "lobbyMuteki": true,
+      "lobbyHeal": true,
+      "lobbyChangeGamemode": true,
       "recordGameStats": true,
-      "autoJoinGame": true
+      "autoJoinGame": true,
+      "clearInventory": true
     },
     "minecraft": {
       "adventureMode": true,
@@ -92,10 +115,12 @@
       "fallDamage": true,
       "tntExplodes": false,
       "spectatorGenerateChunks": false,
+      "clearInventory": true,
+      "keepInventory": false,
       "timeSet": 5000
     },
     "game": {
-      "teamMessageExpireSeconds": 300000,
+      "teamMessageExpireSeconds": 300,
       "teamColors": [
         "#E9ECEC",
         "#F07613",
@@ -117,6 +142,22 @@
       "maxPlayerInvalidTime": 1200,
       "maxBotInvalidTime": 200,
       "removeInvalidTeam": false,
+      "friendlyFire": false,
+      "downDamage": [
+        0.3333,
+        0.4444,
+        0.6667,
+        1.3333,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0
+      ],
+      "downDamageFrequency": 20,
+      "onlyGamePlayerSpectate": false,
+      "spectateAfterTeamEliminated": true,
+      "teleportInterfererToLobby": true,
       "allowRemainingBot": true,
       "keepTeamAfterGame": true,
       "teleportAfterGame": true,
@@ -141,8 +182,11 @@
       "lobbyCenter": "2066.500000,34.000000,-5097.500000",
       "lobbyDimension": "555.000000,555.000000,555.000000",
       "lobbyMuteki": true,
+      "lobbyHeal": true,
+      "lobbyChangeGamemode": true,
       "recordGameStats": true,
-      "autoJoinGame": true
+      "autoJoinGame": true,
+      "clearInventory": true
     },
     "minecraft": {
       "adventureMode": true,
@@ -156,6 +200,8 @@
       "fallDamage": true,
       "tntExplodes": false,
       "spectatorGenerateChunks": false,
+      "clearInventory": true,
+      "keepInventory": false,
       "timeSet": 5000
     },
     "game": {
@@ -181,6 +227,22 @@
       "maxPlayerInvalidTime": 1200,
       "maxBotInvalidTime": 200,
       "removeInvalidTeam": false,
+      "friendlyFire": false,
+      "downDamage": [
+        0.3333,
+        0.4444,
+        0.6667,
+        1.3333,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0
+      ],
+      "downDamageFrequency": 20,
+      "onlyGamePlayerSpectate": false,
+      "spectateAfterTeamEliminated": true,
+      "teleportInterfererToLobby": true,
       "allowRemainingBot": true,
       "keepTeamAfterGame": true,
       "teleportAfterGame": true,
@@ -205,8 +267,11 @@
       "lobbyCenter": "2066.500000,34.000000,-5097.500000",
       "lobbyDimension": "555.000000,555.000000,555.000000",
       "lobbyMuteki": true,
+      "lobbyHeal": true,
+      "lobbyChangeGamemode": true,
       "recordGameStats": true,
-      "autoJoinGame": true
+      "autoJoinGame": true,
+      "clearInventory": true
     },
     "minecraft": {
       "adventureMode": true,
@@ -220,6 +285,8 @@
       "fallDamage": true,
       "tntExplodes": false,
       "spectatorGenerateChunks": false,
+      "clearInventory": true,
+      "keepInventory": false,
       "timeSet": 5000
     },
     "game": {
@@ -245,6 +312,22 @@
       "maxPlayerInvalidTime": 1200,
       "maxBotInvalidTime": 200,
       "removeInvalidTeam": false,
+      "friendlyFire": false,
+      "downDamage": [
+        0.3333,
+        0.4444,
+        0.6667,
+        1.3333,
+        2.0,
+        4.0,
+        8.0,
+        16.0,
+        32.0
+      ],
+      "downDamageFrequency": 20,
+      "onlyGamePlayerSpectate": false,
+      "spectateAfterTeamEliminated": true,
+      "teleportInterfererToLobby": true,
       "allowRemainingBot": true,
       "keepTeamAfterGame": true,
       "teleportAfterGame": true,

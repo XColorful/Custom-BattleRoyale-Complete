@@ -11,9 +11,14 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Custom BattleRoyale Complete",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "author": "",
   "files": [
+    {
+      "projectID": 582327,
+      "fileID": 6296598,
+      "required": true
+    },
     {
       "projectID": 379887,
       "fileID": 4869702,
@@ -25,8 +30,13 @@
       "required": true
     },
     {
-      "projectID": 429235,
-      "fileID": 4810975,
+      "projectID": 526854,
+      "fileID": 4631193,
+      "required": true
+    },
+    {
+      "projectID": 633412,
+      "fileID": 5016280,
       "required": true
     },
     {
@@ -65,6 +75,16 @@
       "required": true
     },
     {
+      "projectID": 1044724,
+      "fileID": 6798002,
+      "required": true
+    },
+    {
+      "projectID": 1277855,
+      "fileID": 6883188,
+      "required": true
+    },
+    {
       "projectID": 1028108,
       "fileID": 6654541,
       "required": true
@@ -80,13 +100,13 @@
       "required": true
     },
     {
-      "projectID": 303657,
-      "fileID": 6466335,
+      "projectID": 326652,
+      "fileID": 5470032,
       "required": true
     },
     {
-      "projectID": 1277855,
-      "fileID": 6863239,
+      "projectID": 303657,
+      "fileID": 6466335,
       "required": true
     },
     {
@@ -100,18 +120,18 @@
       "required": true
     },
     {
-      "projectID": 976858,
-      "fileID": 6816947,
-      "required": true
-    },
-    {
       "projectID": 1018692,
       "fileID": 5637596,
       "required": true
     },
     {
-      "projectID": 297028,
-      "fileID": 4584844,
+      "projectID": 976858,
+      "fileID": 6816947,
+      "required": true
+    },
+    {
+      "projectID": 870210,
+      "fileID": 4848244,
       "required": true
     },
     {
@@ -120,8 +140,8 @@
       "required": true
     },
     {
-      "projectID": 870210,
-      "fileID": 4848244,
+      "projectID": 297028,
+      "fileID": 4584844,
       "required": true
     },
     {
@@ -137,6 +157,11 @@
     {
       "projectID": 479134,
       "fileID": 6293591,
+      "required": true
+    },
+    {
+      "projectID": 882495,
+      "fileID": 4884976,
       "required": true
     },
     {

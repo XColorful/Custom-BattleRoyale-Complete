@@ -28,7 +28,7 @@ fovEffectScale:1.0
 darknessEffectScale:1.0
 glintSpeed:0.5
 glintStrength:0.75
-damageTiltStrength:1.0
+damageTiltStrength:0.0
 highContrast:false
 gamma:0.5
 renderDistance:20
@@ -48,13 +48,13 @@ lastServer:
 lang:zh_cn
 soundDevice:""
 chatVisibility:0
-chatOpacity:1.0
+chatOpacity:0.45422535211267606
 chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
-pauseOnLostFocus:true
+advancedItemTooltips:true
+pauseOnLostFocus:false
 overrideWidth:0
 overrideHeight:0
 chatHeightFocused:1.0
@@ -168,6 +168,7 @@ key_key.replaymod.positionkeyframe:key.keyboard.i
 key_key.replaymod.positiononlykeyframe:key.keyboard.unknown
 key_key.replaymod.timekeyframe:key.keyboard.o
 key_key.replaymod.bothkeyframes:key.keyboard.unknown
+key_key.accessiblestep.mode:key.keyboard.unknown
 key_physicsmod.keybinding.guiphysics:key.keyboard.f6
 key_physicsmod.keybinding.physicsmenu:key.keyboard.f7
 key_physicsmod.keybinding.togglephysics:key.keyboard.unknown

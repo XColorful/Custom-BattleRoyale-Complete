@@ -37,8 +37,9 @@
 ### 辅助
 让游戏过程更便捷
 
+- Accessible Step by secret_online
 - Embeddium by FiniteReality
-- FerriteCore by malte0811
+- fix GPU memory leak by someaddon
 - Hidden Names by pitbox46
 - Inventory Tweaks - ReFoxed by LobsterJonn
 - JourneyMap by techbrew, Mysticdrew, meme_sapiens
@@ -49,7 +50,10 @@
 - PlayerRevive by CreativeMD
 - Presence Footsteps (Forge) by Paint_Ninja
 - ReForgedPlay by Ferri_Arnus
+- Server Performance - Smooth Chunk Save by someaddon
+- Smooth Boot (Reloaded) by AbdElAziz333
 - Sound Physics Remastered by henkelmax
+- Starlight by Spottedleaf
 - Trample Stopper by UnRealDinnerbone, nanitedev
 - WorldEdit by sk89q, me4502, wizjany_, octylFractal
 
@@ -57,6 +61,7 @@
 
 - Cloth Config API by shedaniel, LinkielsBetterThanK9
 - CreativeCore by CreativeMD
+- Cupboard by someaddon
 - Puzzles Lib by Fuzs
 - Soduim/Embeddium Options API
 - Trenzalore by UnRealDinnerbone
