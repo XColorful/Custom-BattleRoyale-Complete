@@ -3,7 +3,7 @@
   "bleeding": {
     "bleedTime": 1200,
     "triggerForCreative": true,
-    "bleedingMessage": true,
+    "bleedingMessage": false,
     "bleedingMessageTrackingOnly": false,
     "shouldGlow": false,
     "bleedingEffects": [
