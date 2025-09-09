@@ -1,7 +1,6 @@
 [
   {
     "lootId": 0,
-    "default": true,
     "name": "Horse Vehicle",
     "color": "#FFFFFFAA",
     "entry": {

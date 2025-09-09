@@ -1,7 +1,6 @@
 [
   {
     "zoneId": 0,
-    "default": true,
     "zoneName": "Blue border",
     "zoneColor": "#0000FFFF",
     "zoneDelay": 0,

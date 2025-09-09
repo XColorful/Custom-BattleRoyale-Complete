@@ -43,7 +43,7 @@
 	DefaultPackDebug = false
 	#The farthest sound distance of the target, including minecarts type
 	#Range: > 0
-	TargetSoundDistance = 256
+	TargetSoundDistance = 321
 	#DEV: Server hitbox offset (If the hitbox is ahead, fill in a negative number)
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	ServerHitboxOffset = 3.0

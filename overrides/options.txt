@@ -15,7 +15,7 @@ reducedDebugInfo:false
 showSubtitles:false
 directionalAudio:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
@@ -104,7 +104,7 @@ key_key.screenshot:key.keyboard.f2
 key_key.togglePerspective:key.keyboard.v
 key_key.smoothCamera:key.keyboard.unknown
 key_key.fullscreen:key.keyboard.f11
-key_key.spectatorOutlines:key.keyboard.left.bracket
+key_key.spectatorOutlines:key.mouse.5
 key_key.swapOffhand:key.keyboard.u
 key_key.saveToolbarActivator:key.keyboard.unknown
 key_key.loadToolbarActivator:key.keyboard.x
@@ -118,6 +118,19 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.boththrow.desc:key.mouse.left
+key_key.leftthrow.desc:key.keyboard.unknown
+key_key.rightthrow.desc:key.keyboard.unknown
+key_key.motoronoff.desc:key.keyboard.left.shift
+key_key.jumpanddetach.desc:key.keyboard.space
+key_key.slow.desc:key.keyboard.left.shift
+key_key.climb.desc:key.keyboard.left.shift
+key_key.climbup.desc:key.keyboard.unknown
+key_key.climbdown.desc:key.keyboard.unknown
+key_key.enderlaunch.desc:key.mouse.left
+key_key.rocket.desc:key.mouse.left
+key_key.slide.desc:key.keyboard.left.shift
+key_key.taczaddon.switch_gun.desc:key.keyboard.right.bracket
 key_key.tacz.inspect.desc:key.keyboard.j
 key_key.tacz.reload.desc:key.keyboard.r
 key_key.tacz.shoot.desc:key.mouse.left
@@ -193,6 +206,8 @@ key_key.lrtactical.sp_attack.desc:key.mouse.right
 key_iris.keybind.reload:key.keyboard.right.bracket
 key_iris.keybind.toggleShaders:key.keyboard.right.bracket
 key_iris.keybind.shaderPackSelection:key.keyboard.right.bracket
+key_key.modernui.openCenter:key.keyboard.k:CONTROL
+key_key.modernui.zoom:key.keyboard.right.bracket
 key_key.presencefootsteps.settings:key.keyboard.f10
 key_key.pickup.item:key.keyboard.unknown
 soundCategory_master:1.0
