@@ -1,6 +1,7 @@
 [
   {
     "gameId": 0,
+    "default": true,
     "gameName": "Erangel 100 4",
     "color": "#FFFFFFAA",
     "battleroyale": {
@@ -17,9 +18,10 @@
       "lobbyMuteki": true,
       "lobbyHeal": true,
       "lobbyChangeGamemode": true,
+      "lobbyTeleportDropInventory": false,
+      "lobbyTeleportClearInventory": true,
       "recordGameStats": true,
-      "autoJoinGame": true,
-      "clearInventory": true
+      "autoJoinGame": true
     },
     "minecraft": {
       "adventureMode": true,
@@ -87,6 +89,7 @@
       "spectateAfterTeamEliminated": true,
       "spectatorSeeAllTeams": true,
       "teleportInterfererToLobby": true,
+      "forceEliminationTeleportToLobby": true,
       "allowRemainingBot": true,
       "keepTeamAfterGame": true,
       "teleportAfterGame": true,
@@ -117,9 +120,10 @@
       "lobbyMuteki": true,
       "lobbyHeal": true,
       "lobbyChangeGamemode": true,
+      "lobbyTeleportDropInventory": false,
+      "lobbyTeleportClearInventory": true,
       "recordGameStats": true,
-      "autoJoinGame": true,
-      "clearInventory": true
+      "autoJoinGame": true
     },
     "minecraft": {
       "adventureMode": true,
@@ -187,6 +191,7 @@
       "spectateAfterTeamEliminated": true,
       "spectatorSeeAllTeams": true,
       "teleportInterfererToLobby": true,
+      "forceEliminationTeleportToLobby": true,
       "allowRemainingBot": true,
       "keepTeamAfterGame": true,
       "teleportAfterGame": true,
@@ -217,9 +222,10 @@
       "lobbyMuteki": true,
       "lobbyHeal": true,
       "lobbyChangeGamemode": true,
+      "lobbyTeleportDropInventory": false,
+      "lobbyTeleportClearInventory": true,
       "recordGameStats": true,
-      "autoJoinGame": true,
-      "clearInventory": true
+      "autoJoinGame": true
     },
     "minecraft": {
       "adventureMode": true,
@@ -287,6 +293,7 @@
       "spectateAfterTeamEliminated": true,
       "spectatorSeeAllTeams": true,
       "teleportInterfererToLobby": true,
+      "forceEliminationTeleportToLobby": true,
       "allowRemainingBot": true,
       "keepTeamAfterGame": true,
       "teleportAfterGame": true,
@@ -317,9 +324,10 @@
       "lobbyMuteki": true,
       "lobbyHeal": true,
       "lobbyChangeGamemode": true,
+      "lobbyTeleportDropInventory": false,
+      "lobbyTeleportClearInventory": true,
       "recordGameStats": true,
-      "autoJoinGame": true,
-      "clearInventory": true
+      "autoJoinGame": true
     },
     "minecraft": {
       "adventureMode": true,
@@ -387,6 +395,7 @@
       "spectateAfterTeamEliminated": true,
       "spectatorSeeAllTeams": true,
       "teleportInterfererToLobby": true,
+      "forceEliminationTeleportToLobby": true,
       "allowRemainingBot": true,
       "keepTeamAfterGame": true,
       "teleportAfterGame": true,

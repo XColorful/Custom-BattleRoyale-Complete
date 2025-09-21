@@ -516,12 +516,12 @@
                                   "lootType": "item",
                                   "item": "tacz:modern_kinetic_gun",
                                   "count": 1,
-                                  "nbt": "{GunFireMode: \"AUTO\", GunId: \"tacz:aa12\"}"
+                                  "nbt": "{GunFireMode: \"AUTO\", GunId: \"gz:tactical_sasg_12k\"}"
                                 },
                                 {
                                   "lootType": "item",
                                   "item": "tacz:ammo",
-                                  "count": 7,
+                                  "count": 5,
                                   "nbt": "{AmmoId:\"cbrg:ammo_12g\"}"
                                 }
                               ]
@@ -576,6 +576,26 @@
                         "lootType": "weight",
                         "entries": [
                           {
+                            "weight": 10.0,
+                            "entry": {
+                              "lootType": "multi",
+                              "entries": [
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:modern_kinetic_gun",
+                                  "count": 1,
+                                  "nbt": "{GunFireMode: \"AUTO\", GunId: \"gz:t5smg\"}"
+                                },
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:ammo",
+                                  "count": 25,
+                                  "nbt": "{AmmoId:\"cbrg:ammo_9mm\"}"
+                                }
+                              ]
+                            }
+                          },
+                          {
                             "weight": 15.0,
                             "entry": {
                               "lootType": "multi",
@@ -610,7 +630,7 @@
                                   "lootType": "item",
                                   "item": "tacz:ammo",
                                   "count": 25,
-                                  "nbt": "{AmmoId:\"cbrg:ammo_45acp\"}"
+                                  "nbt": "{AmmoId:\"cbrg:ammo_9mm\"}"
                                 }
                               ]
                             }
