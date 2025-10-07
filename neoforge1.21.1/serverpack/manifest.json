@@ -1,0 +1,109 @@
+{
+  "minecraft": {
+    "version": "1.21.1",
+    "modLoaders": [
+      {
+        "id": "neoforge-21.1.209",
+        "primary": true
+      }
+    ]
+  },
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "Custom BattleRoyale Complete server 1.21.1",
+  "version": "0.4.1-1",
+  "author": "",
+  "files": [
+    {
+      "projectID": 377313,
+      "fileID": 5960415,
+      "required": true
+    },
+    {
+      "projectID": 790626,
+      "fileID": 6766126,
+      "required": true
+    },
+    {
+      "projectID": 976858,
+      "fileID": 6407807,
+      "required": true
+    },
+    {
+      "projectID": 303657,
+      "fileID": 7065563,
+      "required": true
+    },
+    {
+      "projectID": 535489,
+      "fileID": 7032247,
+      "required": true
+    },
+    {
+      "projectID": 442735,
+      "fileID": 5726757,
+      "required": true
+    },
+    {
+      "projectID": 258587,
+      "fileID": 6878279,
+      "required": true
+    },
+    {
+      "projectID": 32274,
+      "fileID": 6689206,
+      "required": true
+    },
+    {
+      "projectID": 828331,
+      "fileID": 6850529,
+      "required": true
+    },
+    {
+      "projectID": 1277855,
+      "fileID": 7076036,
+      "required": true
+    },
+    {
+      "projectID": 1353462,
+      "fileID": 7034896,
+      "required": true
+    },
+    {
+      "projectID": 1023259,
+      "fileID": 6961457,
+      "required": true
+    },
+    {
+      "projectID": 228525,
+      "fileID": 6951065,
+      "required": true
+    },
+    {
+      "projectID": 266890,
+      "fileID": 6383797,
+      "required": true
+    },
+    {
+      "projectID": 257814,
+      "fileID": 7002671,
+      "required": true
+    },
+    {
+      "projectID": 225608,
+      "fileID": 5830452,
+      "required": true
+    },
+    {
+      "projectID": 348521,
+      "fileID": 5729127,
+      "required": true
+    },
+    {
+      "projectID": 379887,
+      "fileID": 5829583,
+      "required": true
+    }
+  ],
+  "overrides": "overrides"
+}
