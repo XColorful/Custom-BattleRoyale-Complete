@@ -3,7 +3,7 @@
     "version": "1.20.1",
     "modLoaders": [
       {
-        "id": "forge-47.4.3",
+        "id": "forge-47.4.0",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Custom BattleRoyale Complete",
-  "version": "0.4.3-forge1.20.1",
+  "version": "0.4.5",
   "author": "",
   "files": [
     {
@@ -135,23 +135,23 @@
       "required": true
     },
     {
-      "projectID": 976858,
-      "fileID": 6816947,
-      "required": true
-    },
-    {
       "projectID": 1018692,
       "fileID": 5637596,
       "required": true
     },
     {
-      "projectID": 1277855,
-      "fileID": 7113566,
+      "projectID": 976858,
+      "fileID": 6816947,
       "required": true
     },
     {
-      "projectID": 297028,
-      "fileID": 4584844,
+      "projectID": 1277855,
+      "fileID": 7151102,
+      "required": true
+    },
+    {
+      "projectID": 870210,
+      "fileID": 4848244,
       "required": true
     },
     {
@@ -160,8 +160,8 @@
       "required": true
     },
     {
-      "projectID": 870210,
-      "fileID": 4848244,
+      "projectID": 297028,
+      "fileID": 4584844,
       "required": true
     },
     {

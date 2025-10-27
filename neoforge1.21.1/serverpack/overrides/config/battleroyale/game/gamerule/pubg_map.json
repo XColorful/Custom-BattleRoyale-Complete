@@ -67,6 +67,7 @@
       "removeInvalidTeam": false,
       "healAllAtStart": true,
       "friendlyFire": false,
+      "canHurtNonGamePlayer": true,
       "downFire": false,
       "downDamage": [
         0.3333,
@@ -87,6 +88,7 @@
       "onlyGamePlayerSpectate": false,
       "spectateAfterTeamEliminated": true,
       "spectatorSeeAllTeams": true,
+      "allowInterfererDamage": false,
       "teleportInterfererToLobby": true,
       "forceEliminationTeleportToLobby": true,
       "allowRemainingBot": true,
@@ -169,6 +171,7 @@
       "removeInvalidTeam": false,
       "healAllAtStart": true,
       "friendlyFire": false,
+      "canHurtNonGamePlayer": true,
       "downFire": false,
       "downDamage": [
         0.3333,
@@ -189,6 +192,7 @@
       "onlyGamePlayerSpectate": false,
       "spectateAfterTeamEliminated": true,
       "spectatorSeeAllTeams": true,
+      "allowInterfererDamage": false,
       "teleportInterfererToLobby": true,
       "forceEliminationTeleportToLobby": true,
       "allowRemainingBot": true,
@@ -271,6 +275,7 @@
       "removeInvalidTeam": false,
       "healAllAtStart": true,
       "friendlyFire": false,
+      "canHurtNonGamePlayer": true,
       "downFire": false,
       "downDamage": [
         0.3333,
@@ -291,6 +296,7 @@
       "onlyGamePlayerSpectate": false,
       "spectateAfterTeamEliminated": true,
       "spectatorSeeAllTeams": true,
+      "allowInterfererDamage": false,
       "teleportInterfererToLobby": true,
       "forceEliminationTeleportToLobby": true,
       "allowRemainingBot": true,
@@ -373,6 +379,7 @@
       "removeInvalidTeam": false,
       "healAllAtStart": true,
       "friendlyFire": false,
+      "canHurtNonGamePlayer": true,
       "downFire": false,
       "downDamage": [
         0.3333,
@@ -393,6 +400,7 @@
       "onlyGamePlayerSpectate": false,
       "spectateAfterTeamEliminated": true,
       "spectatorSeeAllTeams": true,
+      "allowInterfererDamage": false,
       "teleportInterfererToLobby": true,
       "forceEliminationTeleportToLobby": true,
       "allowRemainingBot": true,

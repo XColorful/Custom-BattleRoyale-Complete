@@ -3,7 +3,7 @@
     "version": "1.21.1",
     "modLoaders": [
       {
-        "id": "neoforge-21.1.209",
+        "id": "neoforge-21.1.213",
         "primary": true
       }
     ]
@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Custom BattleRoyale Complete server 1.21.1",
-  "version": "0.4.3-neoforge1.21.1",
+  "version": "0.4.5",
   "author": "",
   "files": [
     {
@@ -40,13 +40,13 @@
       "required": true
     },
     {
-      "projectID": 442735,
-      "fileID": 5726757,
+      "projectID": 258587,
+      "fileID": 6878279,
       "required": true
     },
     {
-      "projectID": 258587,
-      "fileID": 6878279,
+      "projectID": 442735,
+      "fileID": 5726757,
       "required": true
     },
     {
@@ -55,18 +55,18 @@
       "required": true
     },
     {
-      "projectID": 828331,
-      "fileID": 6850529,
+      "projectID": 1353462,
+      "fileID": 7034896,
       "required": true
     },
     {
       "projectID": 1277855,
-      "fileID": 7113811,
+      "fileID": 7151248,
       "required": true
     },
     {
-      "projectID": 1353462,
-      "fileID": 7034896,
+      "projectID": 828331,
+      "fileID": 6850529,
       "required": true
     },
     {
@@ -76,12 +76,7 @@
     },
     {
       "projectID": 228525,
-      "fileID": 6951065,
-      "required": true
-    },
-    {
-      "projectID": 266890,
-      "fileID": 6383797,
+      "fileID": 7115412,
       "required": true
     },
     {
@@ -90,13 +85,18 @@
       "required": true
     },
     {
-      "projectID": 225608,
-      "fileID": 5830452,
+      "projectID": 266890,
+      "fileID": 6383797,
       "required": true
     },
     {
       "projectID": 348521,
       "fileID": 5729127,
+      "required": true
+    },
+    {
+      "projectID": 225608,
+      "fileID": 5830452,
       "required": true
     },
     {
