@@ -1747,7 +1747,7 @@
                               "lootType": "item",
                               "item": "minecraft:chainmail_chestplate",
                               "count": 1,
-                              "nbt": "{components:{\"minecraft:damage\":227,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":1}}}}"
+                              "nbt": "{components:{\"minecraft:damage\":211,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":1}}}}"
                             }
                           },
                           {
@@ -1782,7 +1782,7 @@
                               "lootType": "item",
                               "item": "minecraft:chainmail_leggings",
                               "count": 1,
-                              "nbt": "{components:{\"minecraft:damage\":215,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":1}}}}"
+                              "nbt": "{components:{\"minecraft:damage\":200,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":1}}}}"
                             }
                           },
                           {
@@ -1808,7 +1808,7 @@
                               "lootType": "item",
                               "item": "minecraft:chainmail_helmet",
                               "count": 1,
-                              "nbt": "{components:{\"minecraft:damage\":157,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":3}}}}"
+                              "nbt": "{components:{\"minecraft:damage\":146,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":3}}}}"
                             }
                           },
                           {
@@ -1917,7 +1917,7 @@
                         "lootType": "item",
                         "item": "vc_gliders:paraglider_wood",
                         "count": 1,
-                        "nbt": "{Damage:25}"
+                        "nbt": "{components:{\"minecraft:damage\":25}}"
                       }
                     }
                   ]
