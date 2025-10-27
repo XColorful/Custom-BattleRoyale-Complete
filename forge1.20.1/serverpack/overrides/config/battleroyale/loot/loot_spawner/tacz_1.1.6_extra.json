@@ -1746,7 +1746,7 @@
                               "lootType": "item",
                               "item": "minecraft:chainmail_chestplate",
                               "count": 1,
-                              "nbt": "{Damage:227,Enchantments:[{id:\"minecraft:protection\",lvl:1}]}"
+                              "nbt": "{Damage:211,Enchantments:[{id:\"minecraft:protection\",lvl:1}]}"
                             }
                           },
                           {
@@ -1781,7 +1781,7 @@
                               "lootType": "item",
                               "item": "minecraft:chainmail_leggings",
                               "count": 1,
-                              "nbt": "{Damage:215,Enchantments:[{id:\"minecraft:protection\",lvl:1}]}"
+                              "nbt": "{Damage:200,Enchantments:[{id:\"minecraft:protection\",lvl:1}]}"
                             }
                           },
                           {
@@ -1807,7 +1807,7 @@
                               "lootType": "item",
                               "item": "minecraft:chainmail_helmet",
                               "count": 1,
-                              "nbt": "{Damage:157,Enchantments:[{id:\"minecraft:protection\",lvl:3}]}"
+                              "nbt": "{Damage:146,Enchantments:[{id:\"minecraft:protection\",lvl:3}]}"
                             }
                           },
                           {

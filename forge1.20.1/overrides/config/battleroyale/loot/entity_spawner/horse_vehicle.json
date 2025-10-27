@@ -16,7 +16,8 @@
               "entity": "minecraft:camel",
               "count": 1,
               "nbt": "{Tame:1b,SaddleItem:{id:\"minecraft:saddle\",Count:1b}}",
-              "range": 5
+              "range": 5,
+              "attempts": 4
             }
           },
           {
@@ -26,7 +27,8 @@
               "entity": "minecraft:horse",
               "count": 1,
               "nbt": "{Tame:1b,SaddleItem:{id:\"minecraft:saddle\",Count:1b},ArmorItem:{id:\"minecraft:diamond_horse_armor\",Count:1b,tag:{Enchantments:[{id:\"minecraft:protection\",lvl:10s}]}},Attributes:[{Name:\"minecraft:generic.movement_speed\",Base:0.8333333d},{Name:\"minecraft:generic.max_health\",Base:20.0d},{Name:\"minecraft:horse.jump_strength\",Base:1.0d}]}",
-              "range": 5
+              "range": 5,
+              "attempts": 4
             }
           },
           {
@@ -36,7 +38,8 @@
               "entity": "minecraft:donkey",
               "count": 1,
               "nbt": "{Tame:1b,Items:[],ChestedHorse:1b,SaddleItem:{id:\"minecraft:saddle\",Count:1b},Attributes:[{Name:\"minecraft:generic.movement_speed\",Base:0.4166666d},{Name:\"minecraft:generic.max_health\",Base:50.0d},{Name:\"minecraft:horse.jump_strength\",Base:0.8d}]}",
-              "range": 5
+              "range": 5,
+              "attempts": 4
             }
           },
           {
@@ -46,7 +49,8 @@
               "entity": "minecraft:mule",
               "count": 1,
               "nbt": "{Tame:1b,Items:[],ChestedHorse:1b,SaddleItem:{id:\"minecraft:saddle\",Count:1b},Attributes:[{Name:\"minecraft:generic.movement_speed\",Base:0.5555555d},{Name:\"minecraft:generic.max_health\",Base:40.0d},{Name:\"minecraft:horse.jump_strength\",Base:0.7d}]}",
-              "range": 5
+              "range": 5,
+              "attempts": 4
             }
           }
         ]
