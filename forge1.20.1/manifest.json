@@ -11,213 +11,254 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Custom BattleRoyale Complete",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "author": "",
   "files": [
     {
       "projectID": 582327,
       "fileID": 6296598,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 379887,
       "fileID": 4869702,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 790626,
-      "fileID": 6837713,
-      "required": true
+      "fileID": 7306749,
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 526854,
       "fileID": 4631193,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 633412,
       "fileID": 5016280,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 352491,
       "fileID": 6956345,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 351441,
       "fileID": 4613538,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 348521,
       "fileID": 5729105,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 1011593,
       "fileID": 5359800,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 581495,
       "fileID": 6020952,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 1103431,
       "fileID": 6100812,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 495476,
       "fileID": 6918565,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 828331,
-      "fileID": 6517195,
-      "required": true
+      "fileID": 7349611,
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 1044724,
       "fileID": 6798002,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 1028108,
-      "fileID": 6654541,
-      "required": true
+      "fileID": 7401617,
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 250398,
       "fileID": 4646682,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 60089,
       "fileID": 5338457,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 243190,
-      "fileID": 6993788,
-      "required": true
+      "fileID": 7446740,
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 326652,
       "fileID": 5470032,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 858542,
       "fileID": 5284015,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 303657,
       "fileID": 6907020,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 908741,
       "fileID": 5681725,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 1166811,
       "fileID": 7087090,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 32274,
       "fileID": 5789363,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 1018692,
       "fileID": 5637596,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 976858,
       "fileID": 6816947,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 1277855,
-      "fileID": 7151102,
-      "required": true
+      "fileID": 7467997,
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 870210,
       "fileID": 4848244,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 1273094,
       "fileID": 6751092,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 297028,
       "fileID": 4584844,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 225608,
       "fileID": 4586218,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 433068,
       "fileID": 5015286,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 882495,
       "fileID": 4884976,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 535489,
       "fileID": 7032235,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 266890,
       "fileID": 6048921,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 551736,
       "fileID": 6044481,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 492574,
       "fileID": 4580511,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 257814,
       "fileID": 6383884,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 258587,
-      "fileID": 6862477,
-      "required": true
+      "fileID": 7210045,
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 1238419,
       "fileID": 7009388,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 442735,
       "fileID": 5306442,
-      "required": true
+      "required": true,
+      "isLocked": false
     }
   ],
   "overrides": "overrides"

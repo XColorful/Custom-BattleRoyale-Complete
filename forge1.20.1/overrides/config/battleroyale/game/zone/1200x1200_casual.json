@@ -61,7 +61,7 @@
   {
     "zoneId": 1,
     "zoneName": "Game Start Message",
-    "zoneColor": "FFAA00AA",
+    "zoneColor": "#FFAA00AA",
     "zoneDelay": 0,
     "zoneTime": 80,
     "zoneFunc": {
@@ -347,6 +347,20 @@
         }
       },
       "allowBadShape": false
+    },
+    "zoneSpecial": {
+      "zoneSpecialType": "render",
+      "protocol": "cbr:direct",
+      "jsonTag": {
+        "hideInSpectate": true,
+        "heightOffset": 0.26,
+        "side": 0.5,
+        "3dDistance": false,
+        "distDim": "x",
+        "distMul": 1.0,
+        "distAdd": 0,
+        "innerColor": "#FFFFFF22"
+      }
     }
   },
   {
@@ -608,6 +622,20 @@
         }
       },
       "allowBadShape": false
+    },
+    "zoneSpecial": {
+      "zoneSpecialType": "render",
+      "protocol": "cbr:direct",
+      "jsonTag": {
+        "hideInSpectate": true,
+        "heightOffset": 0.26,
+        "side": 0.5,
+        "3dDistance": false,
+        "distDim": "x",
+        "distMul": 1.0,
+        "distAdd": 0,
+        "innerColor": "#FFFFFF22"
+      }
     }
   },
   {
@@ -869,6 +897,20 @@
         }
       },
       "allowBadShape": false
+    },
+    "zoneSpecial": {
+      "zoneSpecialType": "render",
+      "protocol": "cbr:direct",
+      "jsonTag": {
+        "hideInSpectate": true,
+        "heightOffset": 0.26,
+        "side": 0.5,
+        "3dDistance": false,
+        "distDim": "x",
+        "distMul": 1.0,
+        "distAdd": 0,
+        "innerColor": "#FFFFFF22"
+      }
     }
   },
   {
@@ -1130,6 +1172,20 @@
         }
       },
       "allowBadShape": false
+    },
+    "zoneSpecial": {
+      "zoneSpecialType": "render",
+      "protocol": "cbr:direct",
+      "jsonTag": {
+        "hideInSpectate": true,
+        "heightOffset": 0.26,
+        "side": 0.5,
+        "3dDistance": false,
+        "distDim": "x",
+        "distMul": 1.0,
+        "distAdd": 0,
+        "innerColor": "#FFFFFF22"
+      }
     }
   },
   {
@@ -1391,6 +1447,20 @@
         }
       },
       "allowBadShape": false
+    },
+    "zoneSpecial": {
+      "zoneSpecialType": "render",
+      "protocol": "cbr:direct",
+      "jsonTag": {
+        "hideInSpectate": true,
+        "heightOffset": 0.26,
+        "side": 0.5,
+        "3dDistance": false,
+        "distDim": "x",
+        "distMul": 1.0,
+        "distAdd": 0,
+        "innerColor": "#FFFFFF22"
+      }
     }
   },
   {
@@ -1652,6 +1722,20 @@
         }
       },
       "allowBadShape": false
+    },
+    "zoneSpecial": {
+      "zoneSpecialType": "render",
+      "protocol": "cbr:direct",
+      "jsonTag": {
+        "hideInSpectate": true,
+        "heightOffset": 0.26,
+        "side": 0.5,
+        "3dDistance": false,
+        "distDim": "x",
+        "distMul": 1.0,
+        "distAdd": 0,
+        "innerColor": "#FFFFFF22"
+      }
     }
   },
   {
@@ -1913,6 +1997,20 @@
         }
       },
       "allowBadShape": false
+    },
+    "zoneSpecial": {
+      "zoneSpecialType": "render",
+      "protocol": "cbr:direct",
+      "jsonTag": {
+        "hideInSpectate": true,
+        "heightOffset": 0.26,
+        "side": 0.5,
+        "3dDistance": false,
+        "distDim": "x",
+        "distMul": 1.0,
+        "distAdd": 0,
+        "innerColor": "#FFFFFF22"
+      }
     }
   },
   {

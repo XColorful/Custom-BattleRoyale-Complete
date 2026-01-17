@@ -52,7 +52,7 @@
                                   "lootType": "item",
                                   "item": "tacz:modern_kinetic_gun",
                                   "count": 1,
-                                  "nbt": "{GunFireMode: \"AUTO\", GunId: \"tacz:rpk\"}"
+                                  "nbt": "{GunFireMode: \"AUTO\", GunId: \"classicr:dp28\"}"
                                 },
                                 {
                                   "lootType": "item",
@@ -448,6 +448,26 @@
                                   "lootType": "item",
                                   "item": "tacz:modern_kinetic_gun",
                                   "count": 1,
+                                  "nbt": "{GunFireMode: \"SEMI\", GunId: \"ccrp:m14_hbar\"}"
+                                },
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:ammo",
+                                  "count": 15,
+                                  "nbt": "{AmmoId:\"cbrg:ammo_556\"}"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "weight": 20.0,
+                            "entry": {
+                              "lootType": "multi",
+                              "entries": [
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:modern_kinetic_gun",
+                                  "count": 1,
                                   "nbt": "{GunFireMode: \"SEMI\", GunId: \"tacz:spr15hb\"}"
                                 },
                                 {
@@ -584,7 +604,7 @@
                                   "lootType": "item",
                                   "item": "tacz:modern_kinetic_gun",
                                   "count": 1,
-                                  "nbt": "{GunFireMode: \"AUTO\", GunId: \"gz:t5smg\"}"
+                                  "nbt": "{GunFireMode: \"AUTO\", GunId: \"cib:js9\"}"
                                 },
                                 {
                                   "lootType": "item",
@@ -1873,6 +1893,46 @@
                                 }
                               ]
                             }
+                          },
+                          {
+                            "weight": 5.0,
+                            "entry": {
+                              "lootType": "multi",
+                              "entries": [
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:modern_kinetic_gun",
+                                  "count": 1,
+                                  "nbt": "{GunFireMode: \"AUTO\", GunId: \"rainforest:famas\"}"
+                                },
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:ammo",
+                                  "count": 20,
+                                  "nbt": "{AmmoId:\"cbrg:ammo_556\"}"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "weight": 5.0,
+                            "entry": {
+                              "lootType": "multi",
+                              "entries": [
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:modern_kinetic_gun",
+                                  "count": 1,
+                                  "nbt": "{GunFireMode: \"AUTO\", GunId: \"cib:mg3\"}"
+                                },
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:ammo",
+                                  "count": 20,
+                                  "nbt": "{AmmoId:\"cbrg:ammo_762\"}"
+                                }
+                              ]
+                            }
                           }
                         ]
                       }
@@ -2223,6 +2283,46 @@
                             "item": "tacz:modern_kinetic_gun",
                             "count": 1,
                             "nbt": "{GunFireMode: \"AUTO\", GunId: \"cbrg:groza\"}"
+                          },
+                          {
+                            "lootType": "item",
+                            "item": "tacz:ammo",
+                            "count": 20,
+                            "nbt": "{AmmoId:\"cbrg:ammo_762\"}"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "weight": 5.0,
+                      "entry": {
+                        "lootType": "multi",
+                        "entries": [
+                          {
+                            "lootType": "item",
+                            "item": "tacz:modern_kinetic_gun",
+                            "count": 1,
+                            "nbt": "{GunFireMode: \"AUTO\", GunId: \"rainforest:famas\"}"
+                          },
+                          {
+                            "lootType": "item",
+                            "item": "tacz:ammo",
+                            "count": 20,
+                            "nbt": "{AmmoId:\"cbrg:ammo_556\"}"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "weight": 5.0,
+                      "entry": {
+                        "lootType": "multi",
+                        "entries": [
+                          {
+                            "lootType": "item",
+                            "item": "tacz:modern_kinetic_gun",
+                            "count": 1,
+                            "nbt": "{GunFireMode: \"AUTO\", GunId: \"cib:mg3\"}"
                           },
                           {
                             "lootType": "item",
