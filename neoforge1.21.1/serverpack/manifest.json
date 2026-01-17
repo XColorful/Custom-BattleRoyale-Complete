@@ -11,98 +11,116 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Custom BattleRoyale Complete server 1.21.1",
-  "version": "0.4.5",
+  "version": "0.4.6",
   "author": "",
   "files": [
     {
       "projectID": 377313,
       "fileID": 5960415,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 790626,
-      "fileID": 6766126,
-      "required": true
+      "fileID": 7200212,
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 976858,
       "fileID": 6407807,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 303657,
       "fileID": 7082554,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 535489,
       "fileID": 7032247,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 258587,
       "fileID": 6878279,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 442735,
       "fileID": 5726757,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 32274,
-      "fileID": 6689206,
-      "required": true
+      "fileID": 7319284,
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 1353462,
-      "fileID": 7034896,
-      "required": true
+      "fileID": 7374584,
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 1277855,
-      "fileID": 7151248,
-      "required": true
+      "fileID": 7468543,
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 828331,
       "fileID": 6850529,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 1023259,
       "fileID": 6961457,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 228525,
-      "fileID": 7115412,
-      "required": true
+      "fileID": 7335846,
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 257814,
-      "fileID": 7002671,
-      "required": true
+      "fileID": 7454037,
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 266890,
-      "fileID": 6383797,
-      "required": true
+      "fileID": 7454042,
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 348521,
       "fileID": 5729127,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 225608,
       "fileID": 5830452,
-      "required": true
+      "required": true,
+      "isLocked": false
     },
     {
       "projectID": 379887,
-      "fileID": 5829583,
-      "required": true
+      "fileID": 7413257,
+      "required": true,
+      "isLocked": false
     }
   ],
   "overrides": "overrides"
