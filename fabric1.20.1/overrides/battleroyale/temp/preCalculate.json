@@ -1,0 +1,13 @@
+{
+  "spawnManager": {
+    "CircleGridStartN": 1,
+    "CircleGridEndN": 51,
+    "CircleGridNList": [
+      100,
+      101,
+      1000,
+      1001
+    ],
+    "showDebugResult": false
+  }
+}
