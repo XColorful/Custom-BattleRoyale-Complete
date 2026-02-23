@@ -105,10 +105,8 @@
             "nbt": "{Damage:332}"
           },
           {
-            "lootType": "item",
-            "item": "minecraft:iron_helmet",
-            "count": 1,
-            "nbt": ""
+            "lootType": "empty",
+            "type": "item"
           }
         ]
       },
