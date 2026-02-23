@@ -231,10 +231,8 @@
             "nbt": "{Damage:332}"
           },
           {
-            "lootType": "item",
-            "item": "minecraft:iron_helmet",
-            "count": 1,
-            "nbt": ""
+            "lootType": "empty",
+            "type": "item"
           }
         ]
       },
@@ -276,6 +274,133 @@
           "previousZoneId": 0,
           "progress": 0.0,
           "scale": 1.01,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
+    "zoneId": 4,
+    "zoneName": "30s Muteki Time",
+    "zoneColor": "#FFD700AA",
+    "zoneDelay": 0,
+    "zoneTime": 600,
+    "zoneFunc": {
+      "zoneFuncType": "muteki",
+      "moveDelay": 0,
+      "moveTime": 600,
+      "tickFrequency": 20,
+      "tickOffset": -1,
+      "mutekiTime": 30
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "relative",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 1.0,
+          "relative": "-5.000000,0.000000,-5.000000",
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "relative",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 1.0,
+          "relative": "-5.000000,-320.000000,-5.000000",
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
+    "zoneId": 5,
+    "zoneName": "Initial boost zone (Muteki countdown)",
+    "zoneColor": "#FFFFFF00",
+    "preZoneDelayId": 4,
+    "zoneDelay": 0,
+    "zoneTime": 19,
+    "zoneFunc": {
+      "zoneFuncType": "boost",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 20,
+      "tickOffset": 0,
+      "boost": 600
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "relative",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 1.0,
+          "relative": "-5.000000,0.000000,-5.000000",
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "relative",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 1.0,
+          "relative": "-5.000000,-320.000000,-5.000000",
           "randomRange": 0.0
         },
         "rotation": {
@@ -357,7 +482,7 @@
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF22"
+        "innerColor": "#FFFFFF11"
       }
     }
   },
@@ -562,6 +687,68 @@
     }
   },
   {
+    "zoneId": 14,
+    "zoneName": "Phase 1 boost zone (Shrink countdown)",
+    "zoneColor": "#FFFFFF00",
+    "preZoneDelayId": 10,
+    "zoneDelay": 0,
+    "zoneTime": 19,
+    "zoneFunc": {
+      "zoneFuncType": "boost",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 20,
+      "tickOffset": 0,
+      "boost": 4800
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
     "zoneId": 20,
     "zoneName": "Phase2Forecast",
     "zoneColor": "#00FF0033",
@@ -632,7 +819,7 @@
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF22"
+        "innerColor": "#FFFFFF11"
       }
     }
   },
@@ -837,6 +1024,68 @@
     }
   },
   {
+    "zoneId": 24,
+    "zoneName": "Phase 2 boost zone (Shrink countdown)",
+    "zoneColor": "#FFFFFF00",
+    "preZoneDelayId": 20,
+    "zoneDelay": 0,
+    "zoneTime": 19,
+    "zoneFunc": {
+      "zoneFuncType": "boost",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 20,
+      "tickOffset": 0,
+      "boost": 1800
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
     "zoneId": 30,
     "zoneName": "Phase3Forecast",
     "zoneColor": "#00FF0033",
@@ -907,7 +1156,7 @@
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF22"
+        "innerColor": "#FFFFFF11"
       }
     }
   },
@@ -1112,6 +1361,68 @@
     }
   },
   {
+    "zoneId": 34,
+    "zoneName": "Phase 3 boost zone (Shrink countdown)",
+    "zoneColor": "#FFFFFF00",
+    "preZoneDelayId": 30,
+    "zoneDelay": 0,
+    "zoneTime": 19,
+    "zoneFunc": {
+      "zoneFuncType": "boost",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 20,
+      "tickOffset": 0,
+      "boost": 1200
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
     "zoneId": 40,
     "zoneName": "Phase4Forecast",
     "zoneColor": "#00FF0033",
@@ -1182,7 +1493,7 @@
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF22"
+        "innerColor": "#FFFFFF11"
       }
     }
   },
@@ -1387,6 +1698,68 @@
     }
   },
   {
+    "zoneId": 44,
+    "zoneName": "Phase 4 boost zone (Shrink countdown)",
+    "zoneColor": "#FFFFFF00",
+    "preZoneDelayId": 40,
+    "zoneDelay": 0,
+    "zoneTime": 19,
+    "zoneFunc": {
+      "zoneFuncType": "boost",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 20,
+      "tickOffset": 0,
+      "boost": 1200
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
     "zoneId": 50,
     "zoneName": "Phase5Forecast",
     "zoneColor": "#00FF0033",
@@ -1457,7 +1830,7 @@
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF22"
+        "innerColor": "#FFFFFF11"
       }
     }
   },
@@ -1662,6 +2035,68 @@
     }
   },
   {
+    "zoneId": 54,
+    "zoneName": "Phase 5 boost zone (Shrink countdown)",
+    "zoneColor": "#FFFFFF00",
+    "preZoneDelayId": 50,
+    "zoneDelay": 0,
+    "zoneTime": 19,
+    "zoneFunc": {
+      "zoneFuncType": "boost",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 20,
+      "tickOffset": 0,
+      "boost": 1200
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
     "zoneId": 60,
     "zoneName": "Phase6Forecast",
     "zoneColor": "#00FF0033",
@@ -1732,7 +2167,7 @@
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF22"
+        "innerColor": "#FFFFFF11"
       }
     }
   },
@@ -1937,6 +2372,68 @@
     }
   },
   {
+    "zoneId": 64,
+    "zoneName": "Phase 6 boost zone (Shrink countdown)",
+    "zoneColor": "#FFFFFF00",
+    "preZoneDelayId": 60,
+    "zoneDelay": 0,
+    "zoneTime": 19,
+    "zoneFunc": {
+      "zoneFuncType": "boost",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 20,
+      "tickOffset": 0,
+      "boost": 1200
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
     "zoneId": 70,
     "zoneName": "Phase7Forecast",
     "zoneColor": "#00FF0033",
@@ -2007,7 +2504,7 @@
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF22"
+        "innerColor": "#FFFFFF11"
       }
     }
   },
@@ -2212,6 +2709,68 @@
     }
   },
   {
+    "zoneId": 74,
+    "zoneName": "Phase 7 boost zone (Shrink countdown)",
+    "zoneColor": "#FFFFFF00",
+    "preZoneDelayId": 70,
+    "zoneDelay": 0,
+    "zoneTime": 19,
+    "zoneFunc": {
+      "zoneFuncType": "boost",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 20,
+      "tickOffset": 0,
+      "boost": 1200
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
     "zoneId": 80,
     "zoneName": "Phase8Forecast",
     "zoneColor": "#00FF0033",
@@ -2282,7 +2841,7 @@
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF22"
+        "innerColor": "#FFFFFF11"
       }
     }
   },
@@ -2487,6 +3046,68 @@
     }
   },
   {
+    "zoneId": 84,
+    "zoneName": "Phase 8 boost zone (Shrink countdown)",
+    "zoneColor": "#FFFFFF00",
+    "preZoneDelayId": 80,
+    "zoneDelay": 0,
+    "zoneTime": 19,
+    "zoneFunc": {
+      "zoneFuncType": "boost",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 20,
+      "tickOffset": 0,
+      "boost": 1200
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
     "zoneId": 90,
     "zoneName": "Phase9Forecast",
     "zoneColor": "#00FF0033",
@@ -2557,7 +3178,7 @@
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF22"
+        "innerColor": "#FFFFFF11"
       }
     }
   },
@@ -2713,6 +3334,68 @@
       "title": "{\"text\":\"\"}",
       "subtitle": "{\"text\":\"§9Phase§b 9 §cShrinking\"}",
       "sendActionBar": false
+    },
+    "zoneShape": {
+      "zoneShapeType": "square",
+      "start": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 0.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "end": {
+        "center": {
+          "centerType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "randomRange": 0.0,
+          "playerCenterLerp": 0.0
+        },
+        "dimension": {
+          "dimensionType": "previous",
+          "previousZoneId": 0,
+          "progress": 1.0,
+          "scale": 0.99,
+          "randomRange": 0.0
+        },
+        "rotation": {
+          "rotationType": "fixed",
+          "fixed": 0.0,
+          "randomRange": 0.0
+        }
+      },
+      "allowBadShape": false
+    }
+  },
+  {
+    "zoneId": 94,
+    "zoneName": "Phase 9 boost zone (Shrink countdown)",
+    "zoneColor": "#FFFFFF00",
+    "preZoneDelayId": 90,
+    "zoneDelay": 0,
+    "zoneTime": 19,
+    "zoneFunc": {
+      "zoneFuncType": "boost",
+      "moveDelay": 0,
+      "moveTime": 0,
+      "tickFrequency": 20,
+      "tickOffset": 0,
+      "boost": 200
     },
     "zoneShape": {
       "zoneShapeType": "square",
