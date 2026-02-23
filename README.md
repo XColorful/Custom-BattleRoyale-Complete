@@ -1,4 +1,10 @@
+# 完整自定义大逃杀 | Custom BattleRoyale Complete
+
+[中文](#完整自定义大逃杀) | [English](#custom-battleroyale-complete)
+
 # 完整自定义大逃杀
+
+😎[wiki](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki) | 📄[docs](https://github.com/XColorful/Custom-BattleRoyale-Complete/tree/HEAD/docs)
 
 **高度自定义，重新定义你的大逃杀战场**
 
@@ -64,6 +70,82 @@
 - WorldEdit by sk89q, me4502, wizjany_, octylFractal
 
 ### 整合包模组依赖项
+
+- Cloth Config API by shedaniel, LinkielsBetterThanK9
+- CreativeCore by CreativeMD
+- Cupboard by someaddon
+- Puzzles Lib by Fuzs
+- Searchables by Jaredlll08
+- Soduim/Embeddium Options API
+- Trenzalore by UnRealDinnerbone
+
+# Custom BattleRoyale Complete
+
+😎[wiki](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki#English) | 📄[docs](https://github.com/XColorful/Custom-BattleRoyale-Complete/tree/HEAD/docs)
+
+**Highly Customizable, Redefine Your Battle Royale Arena**
+
+Tired of the same old shrinking circle? This modpack offers unprecedented freedom, empowering you to shape your own battle royale experience. From realistic firearms to highly customizable, multifunctional zones—every match holds endless possibilities.
+
+Core Features:
+- Highly Customizable Zones: Freely set 2D and 3D zone shapes, and add various special effects
+- Custom Loot Spawns: Combine any items and entities for spawning, supports vanilla chest generation
+
+We highly recommend using this modpack with rich, custom maps and a lively server community. You and your friends can use these powerful customization tools to create your own unique game modes and fully enjoy a one-of-a-kind survival showdown!
+
+## Modpack Contents
+Sorted by name
+
+### Battle Royale Mechanism
+Removes the need for vanilla borders and provides rich, standalone game mechanics.
+- Custom BattleRoyale by XiaoColorful
+
+### Items
+A gun-centric Battle Royale, interchangeable with other mods.
+
+- Grappling Hook - Reforged by Chummycho
+- [TaCZ] LesRaisins Tactical Equipments by xjqshm, LesRaisinsStudio
+- [TaCZ] Timeless and Classics Zero by nekocrane, maydaymemory, TartaricAcid, f1zeil
+- Gliders by Jeryn, tamlighter, TommyCBricks
+
+### Visual Enhancements
+Classic Battle Royale game perspectives.
+
+- Camera Overhaul Reforged by ConfusedFool93
+- ItemPhysics Full by CreativeMD
+- Modern UI by BloCamLimb
+- My Server Is Compatible by focamacho
+- Oculus by Asek3
+- Physics Mod by haubna
+- Pick Up Notifier by Fuzs
+- Shoulder Surfing Reloaded by \_ForgeUser21552638, Exopandora
+- Sodium/Embeddium Dynamic Lights by Txni
+
+### Utilities
+Makes gameplay more convenient.
+
+- Accessible Step by secret_online
+- Controlling by Jaredlll08
+- Embeddium by FiniteReality
+- fix GPU memory leak by someaddon
+- Inventory Tweaks - ReFoxed by LobsterJonn
+- JourneyMap by techbrew, Mysticdrew, meme_sapiens
+- Kiwi by Snownee
+- ModernFix by embeddedt
+- Mouse Tweaks by YaLTeR
+- Passable Foliage by Snownee
+- PlayerRevive by CreativeMD
+- Presence Footsteps by Paint_Ninja
+- ReForgedPlay by Ferri_Arnus
+- Server Performance - Smooth Chunk Save by someaddon
+- Smooth Boot (Reloaded) by AbdElAziz333
+- Sound Physics Remastered by henkelmax
+- Starlight by Spottedleaf
+- TaCZ addon by Mafuyu404
+- Trample Stopper by UnRealDinnerbone, nanitedev
+- WorldEdit by sk89q, me4502, wizjany_, octylFractal
+
+### Modpack Dependencies
 
 - Cloth Config API by shedaniel, LinkielsBetterThanK9
 - CreativeCore by CreativeMD
