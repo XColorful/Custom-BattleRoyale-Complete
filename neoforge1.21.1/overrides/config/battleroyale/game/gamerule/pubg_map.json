@@ -32,10 +32,11 @@
       "doDaylightCycle": false,
       "doWeatherCycle": false,
       "fallDamage": true,
-      "tntExplodes": false,
+      "tntExplosionDropDecay": false,
       "spectatorGenerateChunks": false,
-      "clearInventory": true,
+      "clearInventoryAtStart": true,
       "keepInventory": false,
+      "doImmediateRespawn": false,
       "doTimeSet": true,
       "timeSet": 5000
     },
@@ -98,9 +99,16 @@
       "winnerFireworkId": 0,
       "winnerParticleId": 0,
       "initGameAfterGame": false,
+      "restartAfterGame": false,
+      "restartDelay": 20,
+      "maxRestartRound": 15,
       "messageCleanFrequency": 140,
       "messageExpireTime": 100,
       "messageSyncFrequency": 100
+    },
+    "extraRule": {
+      "protocol": "",
+      "jsonTag": {}
     }
   },
   {
@@ -136,10 +144,11 @@
       "doDaylightCycle": false,
       "doWeatherCycle": false,
       "fallDamage": true,
-      "tntExplodes": false,
+      "tntExplosionDropDecay": false,
       "spectatorGenerateChunks": false,
-      "clearInventory": true,
+      "clearInventoryAtStart": true,
       "keepInventory": false,
+      "doImmediateRespawn": false,
       "doTimeSet": true,
       "timeSet": 5000
     },
@@ -202,9 +211,16 @@
       "winnerFireworkId": 0,
       "winnerParticleId": 0,
       "initGameAfterGame": false,
+      "restartAfterGame": false,
+      "restartDelay": 20,
+      "maxRestartRound": 15,
       "messageCleanFrequency": 140,
       "messageExpireTime": 100,
       "messageSyncFrequency": 100
+    },
+    "extraRule": {
+      "protocol": "",
+      "jsonTag": {}
     }
   },
   {
@@ -240,10 +256,11 @@
       "doDaylightCycle": false,
       "doWeatherCycle": false,
       "fallDamage": true,
-      "tntExplodes": false,
+      "tntExplosionDropDecay": false,
       "spectatorGenerateChunks": false,
-      "clearInventory": true,
+      "clearInventoryAtStart": true,
       "keepInventory": false,
+      "doImmediateRespawn": false,
       "doTimeSet": true,
       "timeSet": 5000
     },
@@ -306,9 +323,16 @@
       "winnerFireworkId": 0,
       "winnerParticleId": 0,
       "initGameAfterGame": false,
+      "restartAfterGame": false,
+      "restartDelay": 20,
+      "maxRestartRound": 15,
       "messageCleanFrequency": 140,
       "messageExpireTime": 100,
       "messageSyncFrequency": 100
+    },
+    "extraRule": {
+      "protocol": "",
+      "jsonTag": {}
     }
   },
   {
@@ -344,10 +368,11 @@
       "doDaylightCycle": false,
       "doWeatherCycle": false,
       "fallDamage": true,
-      "tntExplodes": false,
+      "tntExplosionDropDecay": false,
       "spectatorGenerateChunks": false,
-      "clearInventory": true,
+      "clearInventoryAtStart": true,
       "keepInventory": false,
+      "doImmediateRespawn": false,
       "doTimeSet": true,
       "timeSet": 5000
     },
@@ -410,9 +435,16 @@
       "winnerFireworkId": 0,
       "winnerParticleId": 0,
       "initGameAfterGame": false,
+      "restartAfterGame": false,
+      "restartDelay": 20,
+      "maxRestartRound": 15,
       "messageCleanFrequency": 140,
       "messageExpireTime": 100,
       "messageSyncFrequency": 100
+    },
+    "extraRule": {
+      "protocol": "",
+      "jsonTag": {}
     }
   }
 ]

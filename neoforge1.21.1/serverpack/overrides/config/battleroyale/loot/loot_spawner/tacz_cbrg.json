@@ -1,7 +1,7 @@
 [
   {
     "lootId": 0,
-    "name": "Widespread common loot",
+    "name": "Widespread common loot (CBRG 0.4.7)",
     "color": "#FFFFFFAA",
     "entry": {
       "lootType": "multi",
@@ -19,72 +19,60 @@
                   "lootType": "weight",
                   "entries": [
                     {
-                      "weight": 23.0,
+                      "weight": 21.0,
                       "entry": {
                         "lootType": "weight",
                         "entries": [
                           {
-                            "weight": 2.0,
+                            "weight": 13.0,
                             "entry": {
-                              "lootType": "multi",
+                              "lootType": "weight",
                               "entries": [
                                 {
-                                  "lootType": "item",
-                                  "item": "tacz:modern_kinetic_gun",
-                                  "count": 1,
-                                  "nbt": "{GunFireMode: \"AUTO\", GunId: \"tacz:m249\"}"
+                                  "weight": 50.0,
+                                  "entry": {
+                                    "lootType": "multi",
+                                    "entries": [
+                                      {
+                                        "lootType": "item",
+                                        "item": "tacz:modern_kinetic_gun",
+                                        "count": 1,
+                                        "nbt": "{GunFireMode: \"AUTO\", GunId: \"cbrg:beryl_m762\"}"
+                                      },
+                                      {
+                                        "lootType": "item",
+                                        "item": "tacz:ammo",
+                                        "count": 30,
+                                        "nbt": "{AmmoId:\"cbrg:ammo_762\"}"
+                                      }
+                                    ]
+                                  }
                                 },
                                 {
-                                  "lootType": "item",
-                                  "item": "tacz:ammo",
-                                  "count": 40,
-                                  "nbt": "{AmmoId:\"cbrg:ammo_556\"}"
+                                  "weight": 50.0,
+                                  "entry": {
+                                    "lootType": "multi",
+                                    "entries": [
+                                      {
+                                        "lootType": "item",
+                                        "item": "tacz:modern_kinetic_gun",
+                                        "count": 1,
+                                        "nbt": "{GunFireMode: \"AUTO\", GunId: \"cbrg:beryl_m762_2\"}"
+                                      },
+                                      {
+                                        "lootType": "item",
+                                        "item": "tacz:ammo",
+                                        "count": 30,
+                                        "nbt": "{AmmoId:\"cbrg:ammo_762\"}"
+                                      }
+                                    ]
+                                  }
                                 }
                               ]
                             }
                           },
                           {
-                            "weight": 5.0,
-                            "entry": {
-                              "lootType": "multi",
-                              "entries": [
-                                {
-                                  "lootType": "item",
-                                  "item": "tacz:modern_kinetic_gun",
-                                  "count": 1,
-                                  "nbt": "{GunFireMode: \"AUTO\", GunId: \"classicr:dp28\"}"
-                                },
-                                {
-                                  "lootType": "item",
-                                  "item": "tacz:ammo",
-                                  "count": 40,
-                                  "nbt": "{AmmoId:\"cbrg:ammo_762\"}"
-                                }
-                              ]
-                            }
-                          },
-                          {
-                            "weight": 10.0,
-                            "entry": {
-                              "lootType": "multi",
-                              "entries": [
-                                {
-                                  "lootType": "item",
-                                  "item": "tacz:modern_kinetic_gun",
-                                  "count": 1,
-                                  "nbt": "{GunFireMode: \"AUTO\", GunId: \"cbrg:beryl_m762\"}"
-                                },
-                                {
-                                  "lootType": "item",
-                                  "item": "tacz:ammo",
-                                  "count": 30,
-                                  "nbt": "{AmmoId:\"cbrg:ammo_762\"}"
-                                }
-                              ]
-                            }
-                          },
-                          {
-                            "weight": 10.0,
+                            "weight": 14.0,
                             "entry": {
                               "lootType": "multi",
                               "entries": [
@@ -320,7 +308,7 @@
                                   "lootType": "item",
                                   "item": "tacz:modern_kinetic_gun",
                                   "count": 1,
-                                  "nbt": "{GunFireMode: \"SEMI\", GunId: \"bf1:man_m95\"}"
+                                  "nbt": "{GunFireMode: \"SEMI\", GunId: \"classicr:kar98\"}"
                                 },
                                 {
                                   "lootType": "item",
@@ -366,7 +354,7 @@
                                   "lootType": "item",
                                   "item": "tacz:ammo",
                                   "count": 15,
-                                  "nbt": "{AmmoId:\"cbrg:ammo_762\"}"
+                                  "nbt": "{AmmoId:\"cbrg:ammo_45acp\"}"
                                 }
                               ]
                             }
@@ -798,7 +786,7 @@
                                   "lootType": "item",
                                   "item": "tacz:ammo",
                                   "count": 15,
-                                  "nbt": "{AmmoId:\"cbrg:ammo_45acp\"}"
+                                  "nbt": "{AmmoId:\"cbrg:ammo_9mm\"}"
                                 }
                               ]
                             }
@@ -898,7 +886,55 @@
                                   "lootType": "item",
                                   "item": "tacz:ammo",
                                   "count": 12,
-                                  "nbt": "{AmmoId:\"cbrg:ammo_45acp\"}"
+                                  "nbt": "{AmmoId:\"cbrg:ammo_9mm\"}"
+                                }
+                              ]
+                            }
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "weight": 2.0,
+                      "entry": {
+                        "lootType": "weight",
+                        "entries": [
+                          {
+                            "weight": 35.0,
+                            "entry": {
+                              "lootType": "multi",
+                              "entries": [
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:modern_kinetic_gun",
+                                  "count": 1,
+                                  "nbt": "{GunFireMode: \"AUTO\", GunId: \"tacz:m249\"}"
+                                },
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:ammo",
+                                  "count": 40,
+                                  "nbt": "{AmmoId:\"cbrg:ammo_556\"}"
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "weight": 65.0,
+                            "entry": {
+                              "lootType": "multi",
+                              "entries": [
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:modern_kinetic_gun",
+                                  "count": 1,
+                                  "nbt": "{GunFireMode: \"AUTO\", GunId: \"classicr:dp28\"}"
+                                },
+                                {
+                                  "lootType": "item",
+                                  "item": "tacz:ammo",
+                                  "count": 40,
+                                  "nbt": "{AmmoId:\"cbrg:ammo_762\"}"
                                 }
                               ]
                             }
@@ -1084,12 +1120,30 @@
                               "lootType": "weight",
                               "entries": [
                                 {
-                                  "weight": 100.0,
+                                  "weight": 53.0,
+                                  "entry": {
+                                    "lootType": "item",
+                                    "item": "tacz:attachment",
+                                    "count": 1,
+                                    "nbt": "{AttachmentId:\"cbrg:suppressor_pistol\"}"
+                                  }
+                                },
+                                {
+                                  "weight": 40.0,
                                   "entry": {
                                     "lootType": "item",
                                     "item": "tacz:attachment",
                                     "count": 1,
                                     "nbt": "{AttachmentId:\"cbrg:suppressor_rifle\"}"
+                                  }
+                                },
+                                {
+                                  "weight": 7.0,
+                                  "entry": {
+                                    "lootType": "item",
+                                    "item": "tacz:attachment",
+                                    "count": 1,
+                                    "nbt": "{AttachmentId:\"cbrg:suppressor_sr\"}"
                                   }
                                 }
                               ]
@@ -1377,8 +1431,8 @@
                       "entry": {
                         "lootType": "item",
                         "item": "tacz:ammo",
-                        "count": 5,
-                        "nbt": "{AmmoId:\"tacz:45_70\"}"
+                        "count": 15,
+                        "nbt": "{AmmoId:\"cbrg:ammo_45acp\"}"
                       }
                     },
                     {
@@ -1436,7 +1490,7 @@
                       }
                     },
                     {
-                      "weight": 1.0,
+                      "weight": 12.0,
                       "entry": {
                         "lootType": "item",
                         "item": "tacz:ammo",
@@ -1445,25 +1499,7 @@
                       }
                     },
                     {
-                      "weight": 4.0,
-                      "entry": {
-                        "lootType": "item",
-                        "item": "tacz:ammo",
-                        "count": 30,
-                        "nbt": "{AmmoId:\"cbrg:ammo_556\"}"
-                      }
-                    },
-                    {
-                      "weight": 10.0,
-                      "entry": {
-                        "lootType": "item",
-                        "item": "tacz:ammo",
-                        "count": 30,
-                        "nbt": "{AmmoId:\"cbrg:ammo_762\"}"
-                      }
-                    },
-                    {
-                      "weight": 13.0,
+                      "weight": 16.0,
                       "entry": {
                         "lootType": "item",
                         "item": "tacz:ammo",
@@ -1507,35 +1543,26 @@
                   "lootType": "weight",
                   "entries": [
                     {
-                      "weight": 45.0,
+                      "weight": 20.0,
                       "entry": {
                         "lootType": "weight",
                         "entries": [
                           {
-                            "weight": 55.0,
+                            "weight": 65.0,
                             "entry": {
                               "lootType": "item",
-                              "item": "minecraft:chainmail_chestplate",
+                              "item": "minecraft:leather_helmet",
                               "count": 1,
-                              "nbt": "{components:{\"minecraft:damage\":211,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":1}}}}"
+                              "nbt": "{}"
                             }
                           },
                           {
-                            "weight": 40.0,
+                            "weight": 35.0,
                             "entry": {
                               "lootType": "item",
-                              "item": "minecraft:iron_chestplate",
+                              "item": "minecraft:iron_helmet",
                               "count": 1,
-                              "nbt": "{components:{\"minecraft:damage\":217,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":3}}}}"
-                            }
-                          },
-                          {
-                            "weight": 5.0,
-                            "entry": {
-                              "lootType": "item",
-                              "item": "minecraft:diamond_chestplate",
-                              "count": 1,
-                              "nbt": "{components:{\"minecraft:damage\":479,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":5}}}}"
+                              "nbt": "{}"
                             }
                           }
                         ]
@@ -1550,44 +1577,56 @@
                             "weight": 65.0,
                             "entry": {
                               "lootType": "item",
-                              "item": "minecraft:chainmail_leggings",
+                              "item": "minecraft:iron_chestplate",
                               "count": 1,
-                              "nbt": "{components:{\"minecraft:damage\":200,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":1}}}}"
+                              "nbt": "{}"
                             }
                           },
                           {
-                            "weight": 35.0,
+                            "weight": 30.0,
                             "entry": {
                               "lootType": "item",
-                              "item": "minecraft:iron_leggings",
+                              "item": "minecraft:iron_chestplate",
                               "count": 1,
-                              "nbt": "{components:{\"minecraft:damage\":205,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":3}}}}"
+                              "nbt": "{}"
+                            }
+                          },
+                          {
+                            "weight": 5.0,
+                            "entry": {
+                              "lootType": "item",
+                              "item": "minecraft:diamond_chestplate",
+                              "count": 1,
+                              "nbt": "{}"
                             }
                           }
                         ]
                       }
                     },
                     {
-                      "weight": 25.0,
+                      "weight": 50.0,
                       "entry": {
                         "lootType": "weight",
                         "entries": [
                           {
-                            "weight": 55.0,
+                            "weight": 65.0,
                             "entry": {
-                              "lootType": "item",
-                              "item": "minecraft:chainmail_helmet",
-                              "count": 1,
-                              "nbt": "{components:{\"minecraft:damage\":146,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":3}}}}"
+                              "lootType": "empty",
+                              "type": "item"
                             }
                           },
                           {
-                            "weight": 45.0,
+                            "weight": 30.0,
                             "entry": {
-                              "lootType": "item",
-                              "item": "minecraft:iron_helmet",
-                              "count": 1,
-                              "nbt": "{components:{\"minecraft:damage\":147,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":5}}}}"
+                              "lootType": "empty",
+                              "type": "item"
+                            }
+                          },
+                          {
+                            "weight": 5.0,
+                            "entry": {
+                              "lootType": "empty",
+                              "type": "item"
                             }
                           }
                         ]
@@ -1605,7 +1644,7 @@
                       "weight": 28.0,
                       "entry": {
                         "lootType": "item",
-                        "item": "minecraft:potion",
+                        "item": "minecraft:splash_potion",
                         "count": 1,
                         "nbt": "{components:{\u0027minecraft:custom_name\u0027:\u0027{\"text\":\"Bandage\",\"color\":\"white\",\"italic\":false}\u0027,\u0027minecraft:potion_contents\u0027:{custom_effects:[{id:\"minecraft:regeneration\",amplifier:0,duration:100,show_particles:0b,ambient:0b}]}}}"
                       }
@@ -1874,7 +1913,7 @@
             "lootType": "weight",
             "entries": [
               {
-                "weight": 15.0,
+                "weight": 10.0,
                 "entry": {
                   "lootType": "weight",
                   "entries": [
@@ -1914,26 +1953,6 @@
                             "item": "tacz:ammo",
                             "count": 20,
                             "nbt": "{AmmoId:\"cbrg:ammo_556\"}"
-                          }
-                        ]
-                      }
-                    },
-                    {
-                      "weight": 5.0,
-                      "entry": {
-                        "lootType": "multi",
-                        "entries": [
-                          {
-                            "lootType": "item",
-                            "item": "tacz:modern_kinetic_gun",
-                            "count": 1,
-                            "nbt": "{GunFireMode: \"AUTO\", GunId: \"cib:mg3\"}"
-                          },
-                          {
-                            "lootType": "item",
-                            "item": "tacz:ammo",
-                            "count": 20,
-                            "nbt": "{AmmoId:\"cbrg:ammo_762\"}"
                           }
                         ]
                       }
@@ -2051,12 +2070,74 @@
                     }
                   ]
                 }
+              },
+              {
+                "weight": 5.0,
+                "entry": {
+                  "lootType": "weight",
+                  "entries": [
+                    {
+                      "weight": 5.0,
+                      "entry": {
+                        "lootType": "multi",
+                        "entries": [
+                          {
+                            "lootType": "item",
+                            "item": "tacz:modern_kinetic_gun",
+                            "count": 1,
+                            "nbt": "{GunFireMode: \"AUTO\", GunId: \"cib:mg3\"}"
+                          },
+                          {
+                            "lootType": "item",
+                            "item": "tacz:ammo",
+                            "count": 20,
+                            "nbt": "{AmmoId:\"cbrg:ammo_762\"}"
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
               }
             ]
           },
           {
             "lootType": "weight",
             "entries": [
+              {
+                "weight": 30.0,
+                "entry": {
+                  "lootType": "weight",
+                  "entries": [
+                    {
+                      "weight": 50.0,
+                      "entry": {
+                        "lootType": "weight",
+                        "entries": [
+                          {
+                            "weight": 20.0,
+                            "entry": {
+                              "lootType": "item",
+                              "item": "tacz:attachment",
+                              "count": 1,
+                              "nbt": "{AttachmentId:\"cbrg:suppressor_rifle\"}"
+                            }
+                          },
+                          {
+                            "weight": 80.0,
+                            "entry": {
+                              "lootType": "item",
+                              "item": "tacz:attachment",
+                              "count": 1,
+                              "nbt": "{AttachmentId:\"cbrg:suppressor_sr\"}"
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
               {
                 "weight": 30.0,
                 "entry": {
@@ -2177,21 +2258,21 @@
                 "lootType": "weight",
                 "entries": [
                   {
-                    "weight": 70.0,
-                    "entry": {
-                      "lootType": "item",
-                      "item": "minecraft:iron_helmet",
-                      "count": 1,
-                      "nbt": "{components:{\"minecraft:damage\":147,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":5}}}}"
-                    }
-                  },
-                  {
-                    "weight": 30.0,
+                    "weight": 20.0,
                     "entry": {
                       "lootType": "item",
                       "item": "minecraft:netherite_helmet",
                       "count": 1,
-                      "nbt": "{components:{\"minecraft:damage\":368,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":8}}}}"
+                      "nbt": "{}"
+                    }
+                  },
+                  {
+                    "weight": 80.0,
+                    "entry": {
+                      "lootType": "item",
+                      "item": "minecraft:iron_helmet",
+                      "count": 1,
+                      "nbt": "{}"
                     }
                   }
                 ]
@@ -2200,21 +2281,21 @@
                 "lootType": "weight",
                 "entries": [
                   {
-                    "weight": 60.0,
-                    "entry": {
-                      "lootType": "item",
-                      "item": "minecraft:iron_chestplate",
-                      "count": 1,
-                      "nbt": "{components:{\"minecraft:damage\":217,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":3}}}}"
-                    }
-                  },
-                  {
-                    "weight": 40.0,
+                    "weight": 30.0,
                     "entry": {
                       "lootType": "item",
                       "item": "minecraft:diamond_chestplate",
                       "count": 1,
-                      "nbt": "{components:{\"minecraft:damage\":479,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":5}}}}"
+                      "nbt": "{}"
+                    }
+                  },
+                  {
+                    "weight": 70.0,
+                    "entry": {
+                      "lootType": "item",
+                      "item": "minecraft:iron_chestplate",
+                      "count": 1,
+                      "nbt": "{}"
                     }
                   }
                 ]
@@ -2223,21 +2304,17 @@
                 "lootType": "weight",
                 "entries": [
                   {
-                    "weight": 55.0,
+                    "weight": 20.0,
                     "entry": {
-                      "lootType": "item",
-                      "item": "minecraft:iron_leggings",
-                      "count": 1,
-                      "nbt": "{components:{\"minecraft:damage\":205,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":3}}}}"
+                      "lootType": "empty",
+                      "type": "item"
                     }
                   },
                   {
-                    "weight": 45.0,
+                    "weight": 80.0,
                     "entry": {
-                      "lootType": "item",
-                      "item": "minecraft:diamond_leggings",
-                      "count": 1,
-                      "nbt": "{components:{\"minecraft:damage\":450,\"minecraft:enchantments\":{levels:{\"minecraft:protection\":5}}}}"
+                      "lootType": "empty",
+                      "type": "item"
                     }
                   }
                 ]

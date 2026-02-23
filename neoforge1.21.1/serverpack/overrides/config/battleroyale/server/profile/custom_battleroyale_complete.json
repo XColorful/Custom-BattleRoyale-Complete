@@ -1,0 +1,359 @@
+[
+  {
+    "id": 0,
+    "default": true,
+    "name": "BattleRoyale Erangel 881x881",
+    "color": "#FFFFFFAA",
+    "modConfigManager": {
+      "configManager": {
+        "game": {
+          "gamerule": {
+            "0": {
+              "fileName": "pubg_map",
+              "id": 0
+            }
+          },
+          "spawn": {
+            "0": {
+              "fileName": "airSpawn",
+              "id": 3
+            }
+          },
+          "stats": {
+            "0": {
+              "fileName": "battleroyale",
+              "id": 0
+            }
+          },
+          "zone": {
+            "0": {
+              "fileName": "881x881_casual",
+              "id": 0
+            }
+          }
+        },
+        "server": {
+          "performance": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          },
+          "profile": {
+            "0": {
+              "fileName": "custom_battleroyale_complete",
+              "id": 0
+            }
+          },
+          "utility": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          }
+        },
+        "effect": {
+          "particle": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          }
+        },
+        "client": {
+          "render": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          },
+          "display": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          }
+        }
+      },
+      "configSubManager": {
+        "loot": {
+          "0": {
+            "fileName": "tacz_1.1.6",
+            "id": 0
+          },
+          "1": {
+            "fileName": "horse_vehicle",
+            "id": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 1,
+    "name": "BattleRoyale Erangel 881x881 (CBRG)",
+    "color": "#FFFFFFAA",
+    "modConfigManager": {
+      "configManager": {
+        "game": {
+          "gamerule": {
+            "0": {
+              "fileName": "pubg_map",
+              "id": 0
+            }
+          },
+          "spawn": {
+            "0": {
+              "fileName": "airSpawn",
+              "id": 3
+            }
+          },
+          "stats": {
+            "0": {
+              "fileName": "battleroyale",
+              "id": 0
+            }
+          },
+          "zone": {
+            "0": {
+              "fileName": "881x881_casual",
+              "id": 0
+            }
+          }
+        },
+        "server": {
+          "performance": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          },
+          "profile": {
+            "0": {
+              "fileName": "custom_battleroyale_complete",
+              "id": 0
+            }
+          },
+          "utility": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          }
+        },
+        "effect": {
+          "particle": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          }
+        },
+        "client": {
+          "render": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          },
+          "display": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          }
+        }
+      },
+      "configSubManager": {
+        "loot": {
+          "0": {
+            "fileName": "tacz_cbrg_extra",
+            "id": 0
+          },
+          "1": {
+            "fileName": "horse_vehicle",
+            "id": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "DeathMatch 100x100",
+    "color": "#FFFFFFAA",
+    "modConfigManager": {
+      "configManager": {
+        "game": {
+          "gamerule": {
+            "0": {
+              "fileName": "deathmatch",
+              "id": 0
+            }
+          },
+          "spawn": {
+            "0": {
+              "fileName": "deathmatch100x100_circle",
+              "id": 0
+            }
+          },
+          "stats": {
+            "0": {
+              "fileName": "deathmatch",
+              "id": 0
+            }
+          },
+          "zone": {
+            "0": {
+              "fileName": "100x100_deathmatch",
+              "id": 0
+            }
+          }
+        },
+        "server": {
+          "performance": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          },
+          "profile": {
+            "0": {
+              "fileName": "custom_battleroyale_complete",
+              "id": 0
+            }
+          },
+          "utility": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          }
+        },
+        "effect": {
+          "particle": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          }
+        },
+        "client": {
+          "render": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          },
+          "display": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          }
+        }
+      },
+      "configSubManager": {
+        "loot": {
+          "0": {
+            "fileName": "tacz_1.1.6",
+            "id": 0
+          },
+          "1": {
+            "fileName": "horse_vehicle",
+            "id": 0
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "DeathMatch 100x100 (CBRG)",
+    "color": "#FFFFFFAA",
+    "modConfigManager": {
+      "configManager": {
+        "game": {
+          "gamerule": {
+            "0": {
+              "fileName": "deathmatch",
+              "id": 0
+            }
+          },
+          "spawn": {
+            "0": {
+              "fileName": "deathmatch100x100_circle",
+              "id": 0
+            }
+          },
+          "stats": {
+            "0": {
+              "fileName": "deathmatch",
+              "id": 0
+            }
+          },
+          "zone": {
+            "0": {
+              "fileName": "100x100_deathmatch",
+              "id": 0
+            }
+          }
+        },
+        "server": {
+          "performance": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          },
+          "profile": {
+            "0": {
+              "fileName": "custom_battleroyale_complete",
+              "id": 0
+            }
+          },
+          "utility": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          }
+        },
+        "effect": {
+          "particle": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          }
+        },
+        "client": {
+          "render": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          },
+          "display": {
+            "0": {
+              "fileName": "example",
+              "id": 0
+            }
+          }
+        }
+      },
+      "configSubManager": {
+        "loot": {
+          "0": {
+            "fileName": "tacz_cbrg_extra",
+            "id": 0
+          },
+          "1": {
+            "fileName": "horse_vehicle",
+            "id": 0
+          }
+        }
+      }
+    }
+  }
+]
