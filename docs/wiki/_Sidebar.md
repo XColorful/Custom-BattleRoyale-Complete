@@ -3,6 +3,7 @@
 > - [**回到中文顶部**](#)
 ---
 - [主页](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki)
+	- [快速入门](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki/Quick-start-guide)
 	- 整合包使用教程
 		- [修改大逃杀配置](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki/Edit-CBR-configuration)
 		- [切换配置](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki/Switch-configuration)
@@ -14,6 +15,7 @@
 		- [物资刷新](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki/Loot-introduction)
 
 - [Home](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki#English)
+	- [Quick start guide](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki/Quick-start-guide#English)
 	- Modpack Usage Tutorial
 		- [Edit CBR configuration](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki/Edit-CBR-configuration#English)
 		- [Switch configuration](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki/Switch-configuration#English)

@@ -217,12 +217,14 @@
 > ![Modify the loot configs](https://github.com/XColorful/Custom-BattleRoyale-Complete/raw/HEAD/pic/Modify%20the%20loot%20configs.png)
 - 如果你需要在一个存档里设置多个游戏地图
 > 了解[区域偏移](https://github.com/XColorful/BattleRoyale/wiki/Game-command#区域偏移)并保存各游戏地图中心坐标
+> 
 > ![Zone offset and change game map](https://github.com/XColorful/Custom-BattleRoyale-Complete/raw/HEAD/pic/Zone%20offset%20and%20change%20game%20map.png)
+> 
 > 对于不同的[区域配置](https://github.com/XColorful/BattleRoyale/wiki/Zone-config)，可以用`区域控制器`（方块）让玩家自行切换，也可以配合连锁命令方块[指定切换](https://github.com/XColorful/BattleRoyale/wiki/Config-command#大逃杀游戏配置)的[区域配置](https://github.com/XColorful/BattleRoyale/wiki/Zone-config)
 > ![Zone controller](https://github.com/XColorful/Custom-BattleRoyale-Complete/raw/HEAD/pic/Zone%20controller.png)
 - 如果你需要修改成其他玩法（例如魔法大逃杀）
 > 你可能需要定制[物资刷新配置](https://github.com/XColorful/BattleRoyale/wiki/Configuration-introduction#物资刷新配置)
-- 如果你的服务器 tps 非常告急，甚至容不得 5ms 的卡顿
+- 如果你的服务器 TPS 非常告急，甚至容不得 5ms 的卡顿
 > 在[游戏刷新设置](https://github.com/XColorful/BattleRoyale/wiki/Performance-config#游戏刷新设置)尽可能降低物资刷新速率
 
 ## 模组开发
@@ -452,8 +454,11 @@ The modpack is centered on [自定义大逃杀](https://github.com/XColorful/Bat
 > ![Modify the loot configs](https://github.com/XColorful/Custom-BattleRoyale-Complete/raw/HEAD/pic/Modify%20the%20loot%20configs.png)
 - If you need to set up multiple game maps in one save
 > Learn [Zone offset](https://github.com/XColorful/BattleRoyale/wiki/Game-command#Zone-offset) and save the center coordinates of each game map
+> 
 > ![Zone offset and change game map](https://github.com/XColorful/Custom-BattleRoyale-Complete/raw/HEAD/pic/Zone%20offset%20and%20change%20game%20map.png)
+> 
 > For different [Zone config](https://github.com/XColorful/BattleRoyale/wiki/Zone-config#English), you can use the `Zone controller` (block) to let players switch by themselves, or use chain command blocks to [Specify the switch](https://github.com/XColorful/BattleRoyale/wiki/Config-command#BattleRoyale-config) of the [Zone config](https://github.com/XColorful/BattleRoyale/wiki/Zone-config#English)
+> 
 > ![Zone controller](https://github.com/XColorful/Custom-BattleRoyale-Complete/raw/HEAD/pic/Zone%20controller.png)
 - If you need to modify it into other gameplays (e.g., Magic Battle Royale)
 > You may need to customize the [Loot configs](https://github.com/XColorful/BattleRoyale/wiki/Configuration-introduction#Loot)
