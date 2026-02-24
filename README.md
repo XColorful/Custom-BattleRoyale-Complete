@@ -4,7 +4,7 @@
 
 # 完整自定义大逃杀
 
-😎[wiki](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki) | 📄[docs](https://github.com/XColorful/Custom-BattleRoyale-Complete/tree/HEAD/docs)
+💡[快速入门](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki/Quick-start-guide) | 😎[wiki](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki) | 📄[docs](https://github.com/XColorful/Custom-BattleRoyale-Complete/tree/HEAD/docs)
 
 **高度自定义，重新定义你的大逃杀战场**
 
@@ -81,7 +81,7 @@
 
 # Custom BattleRoyale Complete
 
-😎[wiki](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki#English) | 📄[docs](https://github.com/XColorful/Custom-BattleRoyale-Complete/tree/HEAD/docs)
+💡[Quick start guide](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki/Quick-start-guide#English) | 😎[wiki](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki#English) | 📄[docs](https://github.com/XColorful/Custom-BattleRoyale-Complete/tree/HEAD/docs)
 
 **Highly Customizable, Redefine Your Battle Royale Arena**
 
