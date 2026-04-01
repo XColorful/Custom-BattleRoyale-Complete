@@ -1,6 +1,10 @@
 # 完整自定义大逃杀Wiki
 
+> 推荐安装[Stylus](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)插件并使用配置[Stylus-Obsidian-Topaz-Nord.json](https://github.com/XColorful/XColorful.github.io/blob/main/stylus/Stylus-Obsidian-Topaz-Nord.json)
+
 该整合包基于[自定义大逃杀](https://github.com/XColorful/BattleRoyale)的玩法展开，因此所有游戏性相关的内容都可在[自定义大逃杀Wiki](https://github.com/XColorful/BattleRoyale/wiki)中找到，本Wiki以如何使用整合包展开
+
+⭐**创造模式下右键`木剑`以启用整合包功能！**
 
 ## 快速入门
 > [安装整合包](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki/Install-the-modpack)
@@ -25,7 +29,11 @@
 
 # English
 
+> Recommend installing the [Stylus](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) extension and using the configuration [Stylus-Obsidian-Topaz-Nord.json](https://github.com/XColorful/XColorful.github.io/blob/main/stylus/Stylus-Obsidian-Topaz-Nord.json)
+
 This modpack is based on the gameplay of [Custom BattleRoyale](https://github.com/XColorful/BattleRoyale) (CBR). Therefore, all gameplay-related content can be found in the [Custom BattleRoyale Wiki](https://github.com/XColorful/BattleRoyale/wiki#English). This Wiki focuses on how to use the modpack.
+
+⭐**Right-click `wooden sword` in creative mode to enable modpack's function!**
 
 ## Quick start guide
 > [Install the modpack](https://github.com/XColorful/Custom-BattleRoyale-Complete/wiki/Install-the-modpack)

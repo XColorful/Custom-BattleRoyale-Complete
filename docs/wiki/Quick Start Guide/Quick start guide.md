@@ -2,6 +2,8 @@
 
 # 快速入门
 
+⭐**创造模式下右键`木剑`以启用整合包功能！**
+
 自 0.5.0 起，整合包里附带一张地图，以助于快速入门
 ![CBRC tutorial](https://github.com/XColorful/Custom-BattleRoyale-Complete/raw/HEAD/pic/CBRC%20tutorial.png)
 
@@ -239,6 +241,8 @@
 > ![Switch to DeathMatch mode](https://github.com/XColorful/Custom-BattleRoyale-Complete/raw/HEAD/pic/Switch%20to%20DeathMatch%20mode.png)
 
 # English
+
+⭐**Right-click `wooden sword` in creative mode to enable modpack's function!**
 
 Since 0.5.0, a map is included in the modpack to help with quick start
 ![CBRC tutorial](https://github.com/XColorful/Custom-BattleRoyale-Complete/raw/HEAD/pic/CBRC%20tutorial.png)

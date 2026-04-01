@@ -16,6 +16,8 @@
 
 强烈建议搭配丰富的游戏地图和热闹的服务器氛围。你和你的朋友们可以利用这些强大的自定义功能，创造属于自己的独特玩法，尽情享受这场独一无二的生存对决！
 
+⭐**创造模式下右键`木剑`以启用整合包功能！**
+
 ## 整合包内容
 按名称排序
 
@@ -94,6 +96,8 @@ Core Features:
 - Custom Loot Spawns: Combine any items and entities for spawning, supports vanilla chest generation
 
 We highly recommend using this modpack with rich, custom maps and a lively server community. You and your friends can use these powerful customization tools to create your own unique game modes and fully enjoy a one-of-a-kind survival showdown!
+
+⭐**Right-click `wooden sword` in creative mode to enable modpack's function!**
 
 ## Modpack Contents
 Sorted by name
