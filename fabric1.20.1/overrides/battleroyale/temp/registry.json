@@ -1,3 +1,16 @@
 {
-  "pubgmcCommand": true
+  "pubgmcCommand": true,
+  "entitySelector": true,
+  "selector.eliminatedgameplayers": true,
+  "selector.eliminatedgameplayers.bot": true,
+  "selector.eliminatedgameplayers.player": true,
+  "selector.gameplayers": true,
+  "selector.gameplayers.bot": true,
+  "selector.gameplayers.downed": true,
+  "selector.gameplayers.player": true,
+  "selector.nongameplayers.player": true,
+  "selector.nonstandinggameplayers.player": true,
+  "selector.standinggameplayers": true,
+  "selector.standinggameplayers.bot": true,
+  "selector.standinggameplayers.player": true
 }

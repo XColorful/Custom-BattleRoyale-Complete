@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Custom BattleRoyale Complete server fabric 1.20.1",
-  "version": "0.5.0",
+  "version": "0.5.3",
   "author": "",
   "files": [
     {
@@ -64,7 +64,7 @@
     },
     {
       "projectID": 1277855,
-      "fileID": 7662501,
+      "fileID": 7854909,
       "required": true,
       "isLocked": false
     },
@@ -76,7 +76,7 @@
     },
     {
       "projectID": 326652,
-      "fileID": 5470034,
+      "fileID": 7748888,
       "required": true,
       "isLocked": false
     },
@@ -88,7 +88,7 @@
     },
     {
       "projectID": 258587,
-      "fileID": 7210056,
+      "fileID": 7804477,
       "required": true,
       "isLocked": false
     },
@@ -100,13 +100,13 @@
     },
     {
       "projectID": 1295823,
-      "fileID": 7523896,
+      "fileID": 7854655,
       "required": true,
       "isLocked": false
     },
     {
       "projectID": 442735,
-      "fileID": 7628206,
+      "fileID": 7781941,
       "required": true,
       "isLocked": false
     },
@@ -129,6 +129,12 @@
       "isLocked": false
     },
     {
+      "projectID": 1367517,
+      "fileID": 7855864,
+      "required": true,
+      "isLocked": false
+    },
+    {
       "projectID": 582327,
       "fileID": 6296630,
       "required": true,
@@ -141,6 +147,12 @@
       "isLocked": false
     },
     {
+      "projectID": 1479102,
+      "fileID": 7719547,
+      "required": true,
+      "isLocked": false
+    },
+    {
       "projectID": 32274,
       "fileID": 5789354,
       "required": true,
@@ -148,7 +160,7 @@
     },
     {
       "projectID": 308769,
-      "fileID": 7583523,
+      "fileID": 7815918,
       "required": true,
       "isLocked": false
     },
@@ -160,7 +172,7 @@
     },
     {
       "projectID": 1334246,
-      "fileID": 7623006,
+      "fileID": 7770595,
       "required": true,
       "isLocked": false
     },
@@ -171,14 +183,14 @@
       "isLocked": false
     },
     {
-      "projectID": 552617,
-      "fileID": 4868209,
+      "projectID": 547434,
+      "fileID": 7260491,
       "required": true,
       "isLocked": false
     },
     {
-      "projectID": 547434,
-      "fileID": 7260491,
+      "projectID": 552617,
+      "fileID": 4868209,
       "required": true,
       "isLocked": false
     }
