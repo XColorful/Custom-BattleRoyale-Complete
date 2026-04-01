@@ -54,12 +54,12 @@
   },
   "sounds": {
     "death": {
-      "sound": "playerrevive:death",
+      "sound": "",
       "volume": 1.0,
       "pitch": 1.0
     },
     "revived": {
-      "sound": "playerrevive:revived",
+      "sound": "",
       "volume": 1.0,
       "pitch": 1.0
     }

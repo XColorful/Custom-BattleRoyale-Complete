@@ -42,7 +42,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","tacz_resources","mod_resources"]
+resourcePacks:["vanilla","tacz_resources","mod_resources","file/CBRC resource pack"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:zh_cn
@@ -182,6 +182,7 @@ key_key.replaymod.positiononlykeyframe:key.keyboard.unknown
 key_key.replaymod.timekeyframe:key.keyboard.o
 key_key.replaymod.bothkeyframes:key.keyboard.unknown
 key_key.accessiblestep.mode:key.keyboard.unknown
+key_physicsmod.keybinding.grabobject:key.keyboard.unknown
 key_physicsmod.keybinding.guiphysics:key.keyboard.f6
 key_physicsmod.keybinding.physicsmenu:key.keyboard.f7
 key_physicsmod.keybinding.togglephysics:key.keyboard.unknown
@@ -201,6 +202,10 @@ key_key.shouldersurfing.toggle_camera_coupling:key.keyboard.unknown
 key_key.shouldersurfing.toggle_x_offset_presets:key.keyboard.unknown
 key_key.shouldersurfing.toggle_y_offset_presets:key.keyboard.unknown
 key_key.shouldersurfing.toggle_z_offset_presets:key.keyboard.unknown
+key_key.shouldersurfing.enter_first_person:key.keyboard.unknown
+key_key.shouldersurfing.enter_third_person_front:key.keyboard.unknown
+key_key.shouldersurfing.enter_third_person_back:key.keyboard.unknown
+key_key.shouldersurfing.enter_shoulder_surfing:key.keyboard.unknown
 key_key.lrtactical.normal_attack.desc:key.mouse.left
 key_key.lrtactical.sp_attack.desc:key.mouse.right
 key_iris.keybind.reload:key.keyboard.right.bracket

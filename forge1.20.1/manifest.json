@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Custom BattleRoyale Complete forge 1.20.1",
-  "version": "0.5.0",
+  "version": "0.5.3",
   "author": "",
   "files": [
     {
@@ -64,7 +64,7 @@
     },
     {
       "projectID": 258587,
-      "fileID": 7210045,
+      "fileID": 7804467,
       "required": true,
       "isLocked": false
     },
@@ -87,14 +87,20 @@
       "isLocked": false
     },
     {
-      "projectID": 495476,
-      "fileID": 6918565,
+      "projectID": 1479102,
+      "fileID": 7719547,
       "required": true,
       "isLocked": false
     },
     {
       "projectID": 326652,
-      "fileID": 7605004,
+      "fileID": 7746490,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 495476,
+      "fileID": 6918565,
       "required": true,
       "isLocked": false
     },
@@ -106,7 +112,7 @@
     },
     {
       "projectID": 1238419,
-      "fileID": 7009388,
+      "fileID": 7783735,
       "required": true,
       "isLocked": false
     },
@@ -129,6 +135,12 @@
       "isLocked": false
     },
     {
+      "projectID": 1367517,
+      "fileID": 7855864,
+      "required": true,
+      "isLocked": false
+    },
+    {
       "projectID": 535489,
       "fileID": 7032235,
       "required": true,
@@ -141,14 +153,14 @@
       "isLocked": false
     },
     {
-      "projectID": 790626,
-      "fileID": 7515215,
+      "projectID": 882495,
+      "fileID": 4884976,
       "required": true,
       "isLocked": false
     },
     {
-      "projectID": 882495,
-      "fileID": 4884976,
+      "projectID": 790626,
+      "fileID": 7515215,
       "required": true,
       "isLocked": false
     },
@@ -184,7 +196,7 @@
     },
     {
       "projectID": 1028108,
-      "fileID": 7401617,
+      "fileID": 7745481,
       "required": true,
       "isLocked": false
     },
@@ -202,7 +214,7 @@
     },
     {
       "projectID": 1277855,
-      "fileID": 7662501,
+      "fileID": 7854909,
       "required": true,
       "isLocked": false
     },
@@ -214,7 +226,7 @@
     },
     {
       "projectID": 243190,
-      "fileID": 7635998,
+      "fileID": 7829758,
       "required": true,
       "isLocked": false
     },
@@ -244,7 +256,7 @@
     },
     {
       "projectID": 442735,
-      "fileID": 7628202,
+      "fileID": 7781938,
       "required": true,
       "isLocked": false
     },

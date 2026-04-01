@@ -1,0 +1,8 @@
+{
+  "armorIgnoreScale": 1.0,
+  "turnArmorIgnore": true,
+  "turnDamageScaling": true,
+  "turnDurabilityScaling": true,
+  "keepItemGameId": true,
+  "replaceItemRemoveGameId": false
+}

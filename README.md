@@ -22,15 +22,17 @@
 ### 大逃杀机制
 无需原版边界、提供丰富且独立于原版的游戏机制
 
+- CBR addon by XiaoColorful
 - Custom BattleRoyale by XiaoColorful
 
 ### 物品
 枪战为主的大逃杀、可替换为其他模组
 
-- Grappling Hook - Reforged by Chummycho
 - [TaCZ] LesRaisins Tactical Equipments by xjqshm, LesRaisinsStudio
 - [TaCZ] Timeless and Classics Zero by nekocrane, maydaymemory, TartaricAcid, f1zeil
 - Gliders by Jeryn, tamlighter, TommyCBricks
+- Grappling Hook - Reforged by Chummycho
+- TaCZ Armor Scaling by XiaoColorful
 
 ### 视觉优化
 经典大逃杀游戏的视角
@@ -98,15 +100,18 @@ Sorted by name
 
 ### Battle Royale Mechanism
 Removes the need for vanilla borders and provides rich, standalone game mechanics.
+
+- CBR addon by XiaoColorful
 - Custom BattleRoyale by XiaoColorful
 
 ### Items
 A gun-centric Battle Royale, interchangeable with other mods.
 
-- Grappling Hook - Reforged by Chummycho
 - [TaCZ] LesRaisins Tactical Equipments by xjqshm, LesRaisinsStudio
 - [TaCZ] Timeless and Classics Zero by nekocrane, maydaymemory, TartaricAcid, f1zeil
 - Gliders by Jeryn, tamlighter, TommyCBricks
+- Grappling Hook - Reforged by Chummycho
+- TaCZ Armor Scaling by XiaoColorful
 
 ### Visual Enhancements
 Classic Battle Royale game perspectives.

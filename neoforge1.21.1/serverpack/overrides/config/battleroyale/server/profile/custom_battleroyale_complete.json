@@ -33,6 +33,12 @@
           }
         },
         "server": {
+          "function": {
+            "0": {
+              "fileName": "example_all_event_tags",
+              "id": 0
+            }
+          },
           "performance": {
             "0": {
               "fileName": "example",
@@ -122,6 +128,12 @@
           }
         },
         "server": {
+          "function": {
+            "0": {
+              "fileName": "example_all_event_tags",
+              "id": 0
+            }
+          },
           "performance": {
             "0": {
               "fileName": "example",
@@ -211,6 +223,12 @@
           }
         },
         "server": {
+          "function": {
+            "0": {
+              "fileName": "example_all_event_tags",
+              "id": 0
+            }
+          },
           "performance": {
             "0": {
               "fileName": "example",
@@ -300,6 +318,12 @@
           }
         },
         "server": {
+          "function": {
+            "0": {
+              "fileName": "example_all_event_tags",
+              "id": 0
+            }
+          },
           "performance": {
             "0": {
               "fileName": "example",
