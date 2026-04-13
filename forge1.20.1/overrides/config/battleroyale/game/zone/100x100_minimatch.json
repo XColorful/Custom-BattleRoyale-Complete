@@ -2,7 +2,7 @@
   {
     "zoneId": 0,
     "zoneName": "Blue border",
-    "zoneColor": "#0000FFFF",
+    "zoneColor": "#0000FF0F",
     "zoneDelay": 0,
     "zoneTime": 99999,
     "zoneFunc": {
@@ -60,7 +60,7 @@
   {
     "zoneId": 1,
     "zoneName": "Game Start Message",
-    "zoneColor": "#FFAA00AA",
+    "zoneColor": "#FFAA003F",
     "zoneDelay": 0,
     "zoneTime": 80,
     "zoneFunc": {
@@ -128,7 +128,7 @@
   {
     "zoneId": 4,
     "zoneName": "5s Muteki Time",
-    "zoneColor": "#FFD700AA",
+    "zoneColor": "#FFD7003F",
     "zoneDelay": 0,
     "zoneTime": 100,
     "zoneFunc": {
@@ -480,7 +480,7 @@
   {
     "zoneId": 90,
     "zoneName": "Phase9Forecast",
-    "zoneColor": "#00FF0033",
+    "zoneColor": "#00FF001F",
     "preZoneDelayId": 0,
     "zoneDelay": 600,
     "zoneTime": 103399,
@@ -542,20 +542,20 @@
       "protocol": "cbr:direct",
       "jsonTag": {
         "hideInSpectate": true,
-        "heightOffset": 0.26,
-        "side": 0.5,
+        "heightOffset": 0.126,
+        "side": 0.25,
         "3dDistance": false,
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF11"
+        "innerColor": "#FFFFFF0f"
       }
     }
   },
   {
     "zoneId": 91,
     "zoneName": "Phase9Shrink",
-    "zoneColor": "#0000FFAA",
+    "zoneColor": "#0000FF3F",
     "preZoneDelayId": 90,
     "zoneDelay": 0,
     "zoneTime": 103399,
@@ -617,7 +617,7 @@
   {
     "zoneId": 92,
     "zoneName": "Phase 9 create message",
-    "zoneColor": "#5555FFFF",
+    "zoneColor": "#5555FF3F",
     "preZoneDelayId": 90,
     "zoneDelay": 0,
     "zoneTime": 80,
@@ -637,7 +637,7 @@
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -686,7 +686,7 @@
   {
     "zoneId": 93,
     "zoneName": "Phase 9 shrink message",
-    "zoneColor": "#FF5555FF",
+    "zoneColor": "#FF55553F",
     "preZoneDelayId": 90,
     "zoneDelay": 200,
     "zoneTime": 80,
@@ -706,7 +706,7 @@
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -768,7 +768,7 @@
       "boost": 200
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",

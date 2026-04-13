@@ -241,6 +241,18 @@
           "receiveCanceled": true
         },
         {
+          "tag": "battleroyale:on_survival_lobby_teleport",
+          "event": "SURVIVAL_LOBBY_TELEPORT_EVENT",
+          "priority": "HIGHEST",
+          "receiveCanceled": true
+        },
+        {
+          "tag": "battleroyale:on_survival_lobby_teleport_finish",
+          "event": "SURVIVAL_LOBBY_TELEPORT_FINISH_EVENT",
+          "priority": "LOWEST",
+          "receiveCanceled": false
+        },
+        {
           "tag": "battleroyale:on_register_manager",
           "event": "REGISTER_MANAGER_EVENT",
           "priority": "LOWEST",
@@ -291,6 +303,12 @@
         {
           "tag": "battleroyale:on_player_logged_out",
           "event": "PLAYER_LOGGED_OUT_EVENT",
+          "priority": "HIGHEST",
+          "receiveCanceled": false
+        },
+        {
+          "tag": "battleroyale:on_player_respawn",
+          "event": "PLAYER_RESPAWN_EVENT",
           "priority": "HIGHEST",
           "receiveCanceled": false
         },
@@ -381,6 +399,55 @@
           "priority": "LOWEST",
           "receiveCanceled": false,
           "eventClass": "xiao.battleroyale.api.event.custom.deathmatch.AddKillEvent$AddTeamKillFinishEvent"
+        },
+        {
+          "tag": "battleroyale:stats/on_damage_record",
+          "event": "CUSTOM_EVENT",
+          "priority": "HIGHEST",
+          "receiveCanceled": true,
+          "eventClass": "xiao.battleroyale.api.event.custom.stats.GamePlayerRecordEvent$DamageRecordEvent"
+        },
+        {
+          "tag": "battleroyale:stats/on_hurt_record",
+          "event": "CUSTOM_EVENT",
+          "priority": "HIGHEST",
+          "receiveCanceled": true,
+          "eventClass": "xiao.battleroyale.api.event.custom.stats.GamePlayerRecordEvent$HurtRecordEvent"
+        },
+        {
+          "tag": "battleroyale:stats/on_down_record",
+          "event": "CUSTOM_EVENT",
+          "priority": "HIGHEST",
+          "receiveCanceled": true,
+          "eventClass": "xiao.battleroyale.api.event.custom.stats.GamePlayerRecordEvent$DownRecordEvent"
+        },
+        {
+          "tag": "battleroyale:stats/on_knock_record",
+          "event": "CUSTOM_EVENT",
+          "priority": "HIGHEST",
+          "receiveCanceled": true,
+          "eventClass": "xiao.battleroyale.api.event.custom.stats.GamePlayerRecordEvent$KnockRecordEvent"
+        },
+        {
+          "tag": "battleroyale:stats/on_revive_record",
+          "event": "CUSTOM_EVENT",
+          "priority": "HIGHEST",
+          "receiveCanceled": true,
+          "eventClass": "xiao.battleroyale.api.event.custom.stats.GamePlayerRecordEvent$ReviveRecordEvent"
+        },
+        {
+          "tag": "battleroyale:stats/on_death_record",
+          "event": "CUSTOM_EVENT",
+          "priority": "HIGHEST",
+          "receiveCanceled": true,
+          "eventClass": "xiao.battleroyale.api.event.custom.stats.GamePlayerRecordEvent$DeathRecordEvent"
+        },
+        {
+          "tag": "battleroyale:stats/on_kill_record",
+          "event": "CUSTOM_EVENT",
+          "priority": "HIGHEST",
+          "receiveCanceled": true,
+          "eventClass": "xiao.battleroyale.api.event.custom.stats.GamePlayerRecordEvent$KillRecordEvent"
         }
       ]
     }

@@ -12,6 +12,7 @@
         "lobbyDimension": "8.000000,160.000000,8.000000",
         "lobbyMuteki": false,
         "lobbyHeal": false,
+        "lobbyChangeGamemode": true,
         "dropInventory": true,
         "dropGameItemOnly": true,
         "clearInventory": true,

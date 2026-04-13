@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Custom BattleRoyale Complete server forge 1.20.1",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "author": "",
   "files": [
     {
@@ -40,7 +40,7 @@
     },
     {
       "projectID": 790626,
-      "fileID": 7515215,
+      "fileID": 7917716,
       "required": true,
       "isLocked": false
     },
@@ -112,19 +112,19 @@
     },
     {
       "projectID": 1277855,
-      "fileID": 7854909,
+      "fileID": 7915934,
       "required": true,
       "isLocked": false
     },
     {
       "projectID": 326652,
-      "fileID": 7746490,
+      "fileID": 7905744,
       "required": true,
       "isLocked": false
     },
     {
       "projectID": 1367517,
-      "fileID": 7855864,
+      "fileID": 7920026,
       "required": true,
       "isLocked": false
     },
@@ -136,7 +136,7 @@
     },
     {
       "projectID": 1479102,
-      "fileID": 7719547,
+      "fileID": 7908445,
       "required": true,
       "isLocked": false
     },

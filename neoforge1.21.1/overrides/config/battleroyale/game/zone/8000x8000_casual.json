@@ -2,7 +2,7 @@
   {
     "zoneId": 0,
     "zoneName": "Blue border",
-    "zoneColor": "#0000FFFF",
+    "zoneColor": "#0000FF0F",
     "zoneDelay": 0,
     "zoneTime": 34000,
     "zoneFunc": {
@@ -60,7 +60,7 @@
   {
     "zoneId": 1,
     "zoneName": "Game Start Message",
-    "zoneColor": "#FFAA00AA",
+    "zoneColor": "#FFAA003F",
     "zoneDelay": 0,
     "zoneTime": 80,
     "zoneFunc": {
@@ -74,8 +74,8 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"bold\":true,\"text\":\"§6Game Start\"}",
-      "subtitle": "{\"text\":\"\"}",
+      "title": "{\"text\":\"§6Game Start\",\"bold\":true}",
+      "subtitle": "\"\"",
       "sendActionBar": false
     },
     "zoneShape": {
@@ -228,7 +228,7 @@
             "lootType": "item",
             "item": "minecraft:elytra",
             "count": 1,
-            "nbt": "{Damage:332}"
+            "nbt": "{components:{\"minecraft:damage\":332}}"
           },
           {
             "lootType": "empty",
@@ -288,7 +288,7 @@
   {
     "zoneId": 4,
     "zoneName": "30s Muteki Time",
-    "zoneColor": "#FFD700AA",
+    "zoneColor": "#FFD7003F",
     "zoneDelay": 0,
     "zoneTime": 600,
     "zoneFunc": {
@@ -415,7 +415,7 @@
   {
     "zoneId": 10,
     "zoneName": "Phase1Forecast",
-    "zoneColor": "#00FF0033",
+    "zoneColor": "#00FF001F",
     "preZoneDelayId": 0,
     "zoneDelay": 1800,
     "zoneTime": 10200,
@@ -476,20 +476,20 @@
       "protocol": "cbr:direct",
       "jsonTag": {
         "hideInSpectate": true,
-        "heightOffset": 0.26,
-        "side": 0.5,
+        "heightOffset": 0.126,
+        "side": 0.25,
         "3dDistance": false,
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF11"
+        "innerColor": "#FFFFFF0f"
       }
     }
   },
   {
     "zoneId": 11,
     "zoneName": "Phase1Shrink",
-    "zoneColor": "#0000FFAA",
+    "zoneColor": "#0000FF3F",
     "preZoneDelayId": 10,
     "zoneDelay": 0,
     "zoneTime": 10200,
@@ -551,7 +551,7 @@
   {
     "zoneId": 12,
     "zoneName": "Phase 1 create message",
-    "zoneColor": "#5555FFFF",
+    "zoneColor": "#5555FF3F",
     "preZoneDelayId": 10,
     "zoneDelay": 0,
     "zoneTime": 80,
@@ -566,12 +566,12 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"text\":\"\"}",
-      "subtitle": "{\"text\":\"§9Phase§b 1\"}",
+      "title": "\"\"",
+      "subtitle": "\"§9Phase§b 1\"",
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -620,7 +620,7 @@
   {
     "zoneId": 13,
     "zoneName": "Phase 1 shrink message",
-    "zoneColor": "#FF5555FF",
+    "zoneColor": "#FF55553F",
     "preZoneDelayId": 10,
     "zoneDelay": 4800,
     "zoneTime": 80,
@@ -635,12 +635,12 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"text\":\"\"}",
-      "subtitle": "{\"text\":\"§9Phase§b 1 §cShrinking\"}",
+      "title": "\"\"",
+      "subtitle": "\"§9Phase§b 1 §cShrinking\"",
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -702,7 +702,7 @@
       "boost": 4800
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -751,7 +751,7 @@
   {
     "zoneId": 20,
     "zoneName": "Phase2Forecast",
-    "zoneColor": "#00FF0033",
+    "zoneColor": "#00FF001F",
     "preZoneDelayId": 10,
     "zoneDelay": 10200,
     "zoneTime": 4200,
@@ -813,20 +813,20 @@
       "protocol": "cbr:direct",
       "jsonTag": {
         "hideInSpectate": true,
-        "heightOffset": 0.26,
-        "side": 0.5,
+        "heightOffset": 0.126,
+        "side": 0.25,
         "3dDistance": false,
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF11"
+        "innerColor": "#FFFFFF0f"
       }
     }
   },
   {
     "zoneId": 21,
     "zoneName": "Phase2Shrink",
-    "zoneColor": "#0000FFAA",
+    "zoneColor": "#0000FF3F",
     "preZoneDelayId": 20,
     "zoneDelay": 0,
     "zoneTime": 4200,
@@ -888,7 +888,7 @@
   {
     "zoneId": 22,
     "zoneName": "Phase 2 create message",
-    "zoneColor": "#5555FFFF",
+    "zoneColor": "#5555FF3F",
     "preZoneDelayId": 20,
     "zoneDelay": 0,
     "zoneTime": 80,
@@ -903,12 +903,12 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"text\":\"\"}",
-      "subtitle": "{\"text\":\"§9Phase§b 2\"}",
+      "title": "\"\"",
+      "subtitle": "\"§9Phase§b 2\"",
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -957,7 +957,7 @@
   {
     "zoneId": 23,
     "zoneName": "Phase 2 shrink message",
-    "zoneColor": "#FF5555FF",
+    "zoneColor": "#FF55553F",
     "preZoneDelayId": 20,
     "zoneDelay": 2400,
     "zoneTime": 80,
@@ -972,12 +972,12 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"text\":\"\"}",
-      "subtitle": "{\"text\":\"§9Phase§b 2 §cShrinking\"}",
+      "title": "\"\"",
+      "subtitle": "\"§9Phase§b 2 §cShrinking\"",
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -1039,7 +1039,7 @@
       "boost": 2400
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -1088,7 +1088,7 @@
   {
     "zoneId": 30,
     "zoneName": "Phase3Forecast",
-    "zoneColor": "#00FF0033",
+    "zoneColor": "#00FF001F",
     "preZoneDelayId": 20,
     "zoneDelay": 4200,
     "zoneTime": 3600,
@@ -1150,20 +1150,20 @@
       "protocol": "cbr:direct",
       "jsonTag": {
         "hideInSpectate": true,
-        "heightOffset": 0.26,
-        "side": 0.5,
+        "heightOffset": 0.126,
+        "side": 0.25,
         "3dDistance": false,
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF11"
+        "innerColor": "#FFFFFF0f"
       }
     }
   },
   {
     "zoneId": 31,
     "zoneName": "Phase3Shrink",
-    "zoneColor": "#0000FFAA",
+    "zoneColor": "#0000FF3F",
     "preZoneDelayId": 30,
     "zoneDelay": 0,
     "zoneTime": 3600,
@@ -1225,7 +1225,7 @@
   {
     "zoneId": 32,
     "zoneName": "Phase 3 create message",
-    "zoneColor": "#5555FFFF",
+    "zoneColor": "#5555FF3F",
     "preZoneDelayId": 30,
     "zoneDelay": 0,
     "zoneTime": 80,
@@ -1240,12 +1240,12 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"text\":\"\"}",
-      "subtitle": "{\"text\":\"§9Phase§b 3\"}",
+      "title": "\"\"",
+      "subtitle": "\"§9Phase§b 3\"",
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -1294,7 +1294,7 @@
   {
     "zoneId": 33,
     "zoneName": "Phase 3 shrink message",
-    "zoneColor": "#FF5555FF",
+    "zoneColor": "#FF55553F",
     "preZoneDelayId": 30,
     "zoneDelay": 2000,
     "zoneTime": 80,
@@ -1309,12 +1309,12 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"text\":\"\"}",
-      "subtitle": "{\"text\":\"§9Phase§b 3 §cShrinking\"}",
+      "title": "\"\"",
+      "subtitle": "\"§9Phase§b 3 §cShrinking\"",
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -1376,7 +1376,7 @@
       "boost": 2000
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -1425,7 +1425,7 @@
   {
     "zoneId": 40,
     "zoneName": "Phase4Forecast",
-    "zoneColor": "#00FF0033",
+    "zoneColor": "#00FF001F",
     "preZoneDelayId": 30,
     "zoneDelay": 3600,
     "zoneTime": 3600,
@@ -1487,20 +1487,20 @@
       "protocol": "cbr:direct",
       "jsonTag": {
         "hideInSpectate": true,
-        "heightOffset": 0.26,
-        "side": 0.5,
+        "heightOffset": 0.126,
+        "side": 0.25,
         "3dDistance": false,
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF11"
+        "innerColor": "#FFFFFF0f"
       }
     }
   },
   {
     "zoneId": 41,
     "zoneName": "Phase4Shrink",
-    "zoneColor": "#0000FFAA",
+    "zoneColor": "#0000FF3F",
     "preZoneDelayId": 40,
     "zoneDelay": 0,
     "zoneTime": 3600,
@@ -1562,7 +1562,7 @@
   {
     "zoneId": 42,
     "zoneName": "Phase 4 create message",
-    "zoneColor": "#5555FFFF",
+    "zoneColor": "#5555FF3F",
     "preZoneDelayId": 40,
     "zoneDelay": 0,
     "zoneTime": 80,
@@ -1577,12 +1577,12 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"text\":\"\"}",
-      "subtitle": "{\"text\":\"§9Phase§b 4\"}",
+      "title": "\"\"",
+      "subtitle": "\"§9Phase§b 4\"",
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -1631,7 +1631,7 @@
   {
     "zoneId": 43,
     "zoneName": "Phase 4 shrink message",
-    "zoneColor": "#FF5555FF",
+    "zoneColor": "#FF55553F",
     "preZoneDelayId": 40,
     "zoneDelay": 2000,
     "zoneTime": 80,
@@ -1646,12 +1646,12 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"text\":\"\"}",
-      "subtitle": "{\"text\":\"§9Phase§b 4 §cShrinking\"}",
+      "title": "\"\"",
+      "subtitle": "\"§9Phase§b 4 §cShrinking\"",
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -1713,7 +1713,7 @@
       "boost": 2000
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -1762,7 +1762,7 @@
   {
     "zoneId": 50,
     "zoneName": "Phase5Forecast",
-    "zoneColor": "#00FF0033",
+    "zoneColor": "#00FF001F",
     "preZoneDelayId": 40,
     "zoneDelay": 3600,
     "zoneTime": 3200,
@@ -1824,20 +1824,20 @@
       "protocol": "cbr:direct",
       "jsonTag": {
         "hideInSpectate": true,
-        "heightOffset": 0.26,
-        "side": 0.5,
+        "heightOffset": 0.126,
+        "side": 0.25,
         "3dDistance": false,
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF11"
+        "innerColor": "#FFFFFF0f"
       }
     }
   },
   {
     "zoneId": 51,
     "zoneName": "Phase5Shrink",
-    "zoneColor": "#0000FFAA",
+    "zoneColor": "#0000FF3F",
     "preZoneDelayId": 50,
     "zoneDelay": 0,
     "zoneTime": 3200,
@@ -1899,7 +1899,7 @@
   {
     "zoneId": 52,
     "zoneName": "Phase 5 create message",
-    "zoneColor": "#5555FFFF",
+    "zoneColor": "#5555FF3F",
     "preZoneDelayId": 50,
     "zoneDelay": 0,
     "zoneTime": 80,
@@ -1914,12 +1914,12 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"text\":\"\"}",
-      "subtitle": "{\"text\":\"§9Phase§b 5\"}",
+      "title": "\"\"",
+      "subtitle": "\"§9Phase§b 5\"",
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -1968,7 +1968,7 @@
   {
     "zoneId": 53,
     "zoneName": "Phase 5 shrink message",
-    "zoneColor": "#FF5555FF",
+    "zoneColor": "#FF55553F",
     "preZoneDelayId": 50,
     "zoneDelay": 2000,
     "zoneTime": 80,
@@ -1983,12 +1983,12 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"text\":\"\"}",
-      "subtitle": "{\"text\":\"§9Phase§b 5 §cShrinking\"}",
+      "title": "\"\"",
+      "subtitle": "\"§9Phase§b 5 §cShrinking\"",
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -2050,7 +2050,7 @@
       "boost": 2000
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -2099,7 +2099,7 @@
   {
     "zoneId": 60,
     "zoneName": "Phase6Forecast",
-    "zoneColor": "#00FF0033",
+    "zoneColor": "#00FF001F",
     "preZoneDelayId": 50,
     "zoneDelay": 3200,
     "zoneTime": 2400,
@@ -2161,20 +2161,20 @@
       "protocol": "cbr:direct",
       "jsonTag": {
         "hideInSpectate": true,
-        "heightOffset": 0.26,
-        "side": 0.5,
+        "heightOffset": 0.126,
+        "side": 0.25,
         "3dDistance": false,
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF11"
+        "innerColor": "#FFFFFF0f"
       }
     }
   },
   {
     "zoneId": 61,
     "zoneName": "Phase6Shrink",
-    "zoneColor": "#0000FFAA",
+    "zoneColor": "#0000FF3F",
     "preZoneDelayId": 60,
     "zoneDelay": 0,
     "zoneTime": 2400,
@@ -2236,7 +2236,7 @@
   {
     "zoneId": 62,
     "zoneName": "Phase 6 create message",
-    "zoneColor": "#5555FFFF",
+    "zoneColor": "#5555FF3F",
     "preZoneDelayId": 60,
     "zoneDelay": 0,
     "zoneTime": 80,
@@ -2251,12 +2251,12 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"text\":\"\"}",
-      "subtitle": "{\"text\":\"§9Phase§b 6\"}",
+      "title": "\"\"",
+      "subtitle": "\"§9Phase§b 6\"",
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -2305,7 +2305,7 @@
   {
     "zoneId": 63,
     "zoneName": "Phase 6 shrink message",
-    "zoneColor": "#FF5555FF",
+    "zoneColor": "#FF55553F",
     "preZoneDelayId": 60,
     "zoneDelay": 1800,
     "zoneTime": 80,
@@ -2320,12 +2320,12 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"text\":\"\"}",
-      "subtitle": "{\"text\":\"§9Phase§b 6 §cShrinking\"}",
+      "title": "\"\"",
+      "subtitle": "\"§9Phase§b 6 §cShrinking\"",
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -2387,7 +2387,7 @@
       "boost": 1800
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -2436,7 +2436,7 @@
   {
     "zoneId": 70,
     "zoneName": "Phase7Forecast",
-    "zoneColor": "#00FF0033",
+    "zoneColor": "#00FF001F",
     "preZoneDelayId": 60,
     "zoneDelay": 2400,
     "zoneTime": 2000,
@@ -2498,20 +2498,20 @@
       "protocol": "cbr:direct",
       "jsonTag": {
         "hideInSpectate": true,
-        "heightOffset": 0.26,
-        "side": 0.5,
+        "heightOffset": 0.126,
+        "side": 0.25,
         "3dDistance": false,
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF11"
+        "innerColor": "#FFFFFF0f"
       }
     }
   },
   {
     "zoneId": 71,
     "zoneName": "Phase7Shrink",
-    "zoneColor": "#0000FFAA",
+    "zoneColor": "#0000FF3F",
     "preZoneDelayId": 70,
     "zoneDelay": 0,
     "zoneTime": 2000,
@@ -2573,7 +2573,7 @@
   {
     "zoneId": 72,
     "zoneName": "Phase 7 create message",
-    "zoneColor": "#5555FFFF",
+    "zoneColor": "#5555FF3F",
     "preZoneDelayId": 70,
     "zoneDelay": 0,
     "zoneTime": 80,
@@ -2588,12 +2588,12 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"text\":\"\"}",
-      "subtitle": "{\"text\":\"§9Phase§b 7\"}",
+      "title": "\"\"",
+      "subtitle": "\"§9Phase§b 7\"",
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -2642,7 +2642,7 @@
   {
     "zoneId": 73,
     "zoneName": "Phase 7 shrink message",
-    "zoneColor": "#FF5555FF",
+    "zoneColor": "#FF55553F",
     "preZoneDelayId": 70,
     "zoneDelay": 1400,
     "zoneTime": 80,
@@ -2657,12 +2657,12 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"text\":\"\"}",
-      "subtitle": "{\"text\":\"§9Phase§b 7 §cShrinking\"}",
+      "title": "\"\"",
+      "subtitle": "\"§9Phase§b 7 §cShrinking\"",
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -2724,7 +2724,7 @@
       "boost": 1400
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -2773,7 +2773,7 @@
   {
     "zoneId": 80,
     "zoneName": "Phase8Forecast",
-    "zoneColor": "#00FF0033",
+    "zoneColor": "#00FF001F",
     "preZoneDelayId": 70,
     "zoneDelay": 2000,
     "zoneTime": 1800,
@@ -2835,20 +2835,20 @@
       "protocol": "cbr:direct",
       "jsonTag": {
         "hideInSpectate": true,
-        "heightOffset": 0.26,
-        "side": 0.5,
+        "heightOffset": 0.126,
+        "side": 0.25,
         "3dDistance": false,
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF11"
+        "innerColor": "#FFFFFF0f"
       }
     }
   },
   {
     "zoneId": 81,
     "zoneName": "Phase8Shrink",
-    "zoneColor": "#0000FFAA",
+    "zoneColor": "#0000FF3F",
     "preZoneDelayId": 80,
     "zoneDelay": 0,
     "zoneTime": 1800,
@@ -2910,7 +2910,7 @@
   {
     "zoneId": 82,
     "zoneName": "Phase 8 create message",
-    "zoneColor": "#5555FFFF",
+    "zoneColor": "#5555FF3F",
     "preZoneDelayId": 80,
     "zoneDelay": 0,
     "zoneTime": 80,
@@ -2925,12 +2925,12 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"text\":\"\"}",
-      "subtitle": "{\"text\":\"§9Phase§b 8\"}",
+      "title": "\"\"",
+      "subtitle": "\"§9Phase§b 8\"",
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -2979,7 +2979,7 @@
   {
     "zoneId": 83,
     "zoneName": "Phase 8 shrink message",
-    "zoneColor": "#FF5555FF",
+    "zoneColor": "#FF55553F",
     "preZoneDelayId": 80,
     "zoneDelay": 1200,
     "zoneTime": 80,
@@ -2994,12 +2994,12 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"text\":\"\"}",
-      "subtitle": "{\"text\":\"§9Phase§b 8 §cShrinking\"}",
+      "title": "\"\"",
+      "subtitle": "\"§9Phase§b 8 §cShrinking\"",
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -3061,7 +3061,7 @@
       "boost": 1200
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -3110,7 +3110,7 @@
   {
     "zoneId": 90,
     "zoneName": "Phase9Forecast",
-    "zoneColor": "#00FF0033",
+    "zoneColor": "#00FF001F",
     "preZoneDelayId": 80,
     "zoneDelay": 1800,
     "zoneTime": 1200,
@@ -3172,20 +3172,20 @@
       "protocol": "cbr:direct",
       "jsonTag": {
         "hideInSpectate": true,
-        "heightOffset": 0.26,
-        "side": 0.5,
+        "heightOffset": 0.126,
+        "side": 0.25,
         "3dDistance": false,
         "distDim": "x",
         "distMul": 1.0,
         "distAdd": 0,
-        "innerColor": "#FFFFFF11"
+        "innerColor": "#FFFFFF0f"
       }
     }
   },
   {
     "zoneId": 91,
     "zoneName": "Phase9Shrink",
-    "zoneColor": "#0000FFAA",
+    "zoneColor": "#0000FF3F",
     "preZoneDelayId": 90,
     "zoneDelay": 0,
     "zoneTime": 1200,
@@ -3247,7 +3247,7 @@
   {
     "zoneId": 92,
     "zoneName": "Phase 9 create message",
-    "zoneColor": "#5555FFFF",
+    "zoneColor": "#5555FF3F",
     "preZoneDelayId": 90,
     "zoneDelay": 0,
     "zoneTime": 80,
@@ -3262,12 +3262,12 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"text\":\"\"}",
-      "subtitle": "{\"text\":\"§9Phase§b 9\"}",
+      "title": "\"\"",
+      "subtitle": "\"§9Phase§b 9\"",
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -3316,7 +3316,7 @@
   {
     "zoneId": 93,
     "zoneName": "Phase 9 shrink message",
-    "zoneColor": "#FF5555FF",
+    "zoneColor": "#FF55553F",
     "preZoneDelayId": 90,
     "zoneDelay": 600,
     "zoneTime": 80,
@@ -3331,12 +3331,12 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"text\":\"\"}",
-      "subtitle": "{\"text\":\"§9Phase§b 9 §cShrinking\"}",
+      "title": "\"\"",
+      "subtitle": "\"§9Phase§b 9 §cShrinking\"",
       "sendActionBar": false
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",
@@ -3398,7 +3398,7 @@
       "boost": 600
     },
     "zoneShape": {
-      "zoneShapeType": "square",
+      "zoneShapeType": "circle",
       "start": {
         "center": {
           "centerType": "previous",

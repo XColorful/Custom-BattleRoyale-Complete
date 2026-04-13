@@ -2,7 +2,7 @@
   {
     "zoneId": 0,
     "zoneName": "Blue border",
-    "zoneColor": "#0000FFFF",
+    "zoneColor": "#0000FF0F",
     "zoneDelay": 0,
     "zoneTime": 99999,
     "zoneFunc": {
@@ -60,7 +60,7 @@
   {
     "zoneId": 1,
     "zoneName": "Game Start Message",
-    "zoneColor": "#FFAA00AA",
+    "zoneColor": "#FFAA003F",
     "zoneDelay": 0,
     "zoneTime": 80,
     "zoneFunc": {
@@ -74,8 +74,8 @@
       "stayTicks": 80,
       "fadeOutTicks": 20,
       "sendTitles": true,
-      "title": "{\"bold\":true,\"text\":\"§6Game Start\"}",
-      "subtitle": "{\"text\":\"\"}",
+      "title": "{\"text\":\"§6Game Start\",\"bold\":true}",
+      "subtitle": "\"\"",
       "sendActionBar": false
     },
     "zoneShape": {
@@ -128,7 +128,7 @@
   {
     "zoneId": 4,
     "zoneName": "5s Muteki Time",
-    "zoneColor": "#FFD700AA",
+    "zoneColor": "#FFD7003F",
     "zoneDelay": 0,
     "zoneTime": 100,
     "zoneFunc": {

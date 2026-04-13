@@ -15,7 +15,8 @@
         "vanillaBlackList": []
       },
       "normal": {
-        "maxNormalTickLootChunk": 2000
+        "maxNormalTickLootChunk": 2000,
+        "allowNormalLootInGame": false
       },
       "game": {
         "maxGameTickLootChunk": 2000,
@@ -45,7 +46,8 @@
         "vanillaBlackList": []
       },
       "normal": {
-        "maxNormalTickLootChunk": 3000
+        "maxNormalTickLootChunk": 3000,
+        "allowNormalLootInGame": false
       },
       "game": {
         "maxGameTickLootChunk": 3000,
@@ -75,7 +77,8 @@
         "vanillaBlackList": []
       },
       "normal": {
-        "maxNormalTickLootChunk": 500
+        "maxNormalTickLootChunk": 500,
+        "allowNormalLootInGame": false
       },
       "game": {
         "maxGameTickLootChunk": 500,
@@ -105,7 +108,8 @@
         "vanillaBlackList": []
       },
       "normal": {
-        "maxNormalTickLootChunk": 100000
+        "maxNormalTickLootChunk": 100000,
+        "allowNormalLootInGame": false
       },
       "game": {
         "maxGameTickLootChunk": 100000,

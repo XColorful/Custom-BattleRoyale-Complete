@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Custom BattleRoyale Complete neoforge 1.21.1",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "author": "",
   "files": [
     {
@@ -27,14 +27,14 @@
       "isLocked": false
     },
     {
-      "projectID": 1367517,
-      "fileID": 7855889,
+      "projectID": 1277855,
+      "fileID": 7915959,
       "required": true,
       "isLocked": false
     },
     {
-      "projectID": 1277855,
-      "fileID": 7854937,
+      "projectID": 1367517,
+      "fileID": 7920010,
       "required": true,
       "isLocked": false
     },
@@ -106,13 +106,13 @@
     },
     {
       "projectID": 32274,
-      "fileID": 7854356,
+      "fileID": 7911197,
       "required": true,
       "isLocked": false
     },
     {
       "projectID": 1479102,
-      "fileID": 7722714,
+      "fileID": 7908450,
       "required": true,
       "isLocked": false
     },
@@ -136,13 +136,13 @@
     },
     {
       "projectID": 790626,
-      "fileID": 7509726,
+      "fileID": 7917721,
       "required": true,
       "isLocked": false
     },
     {
       "projectID": 243190,
-      "fileID": 7846653,
+      "fileID": 7876313,
       "required": true,
       "isLocked": false
     },
@@ -171,14 +171,14 @@
       "isLocked": false
     },
     {
-      "projectID": 1103431,
-      "fileID": 6100815,
+      "projectID": 303657,
+      "fileID": 7082554,
       "required": true,
       "isLocked": false
     },
     {
-      "projectID": 303657,
-      "fileID": 7082554,
+      "projectID": 1103431,
+      "fileID": 6100815,
       "required": true,
       "isLocked": false
     },
@@ -195,26 +195,26 @@
       "isLocked": false
     },
     {
-      "projectID": 266890,
-      "fileID": 7454042,
-      "required": true,
-      "isLocked": false
-    },
-    {
       "projectID": 442735,
       "fileID": 7781946,
       "required": true,
       "isLocked": false
     },
     {
-      "projectID": 394468,
-      "fileID": 6382651,
+      "projectID": 266890,
+      "fileID": 7454042,
       "required": true,
       "isLocked": false
     },
     {
       "projectID": 1018692,
       "fileID": 6942967,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 394468,
+      "fileID": 6382651,
       "required": true,
       "isLocked": false
     },
