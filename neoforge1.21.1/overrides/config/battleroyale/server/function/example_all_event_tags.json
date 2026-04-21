@@ -295,6 +295,18 @@
           "receiveCanceled": false
         },
         {
+          "tag": "battleroyale:on_living_heal",
+          "event": "LIVING_HEAL_EVENT",
+          "priority": "HIGHEST",
+          "receiveCanceled": false
+        },
+        {
+          "tag": "battleroyale:on_living_use_totem",
+          "event": "LIVING_USE_TOTEM_EVENT",
+          "priority": "HIGHEST",
+          "receiveCanceled": false
+        },
+        {
           "tag": "battleroyale:on_player_logged_in",
           "event": "PLAYER_LOGGED_IN_EVENT",
           "priority": "HIGHEST",
@@ -309,6 +321,36 @@
         {
           "tag": "battleroyale:on_player_respawn",
           "event": "PLAYER_RESPAWN_EVENT",
+          "priority": "HIGHEST",
+          "receiveCanceled": false
+        },
+        {
+          "tag": "battleroyale:on_item_entity_pickup",
+          "event": "ITEM_ENTITY_PICKUP_EVENT",
+          "priority": "HIGHEST",
+          "receiveCanceled": false
+        },
+        {
+          "tag": "battleroyale:on_item_toss",
+          "event": "ITEM_TOSS_EVENT",
+          "priority": "HIGHEST",
+          "receiveCanceled": false
+        },
+        {
+          "tag": "battleroyale:on_player_open_container",
+          "event": "PLAYER_OPEN_CONTAINER_EVENT",
+          "priority": "HIGHEST",
+          "receiveCanceled": false
+        },
+        {
+          "tag": "battleroyale:on_player_close_container",
+          "event": "PLAYER_CLOSE_CONTAINER_EVENT",
+          "priority": "HIGHEST",
+          "receiveCanceled": false
+        },
+        {
+          "tag": "battleroyale:on_critical_hit",
+          "event": "CRITICAL_HIT_EVENT",
           "priority": "HIGHEST",
           "receiveCanceled": false
         },
@@ -369,6 +411,12 @@
         {
           "tag": "battleroyale:on_farmland_trample",
           "event": "FARMLAND_TRAMPLE_EVENT",
+          "priority": "HIGHEST",
+          "receiveCanceled": false
+        },
+        {
+          "tag": "battleroyale:on_server_chat",
+          "event": "SERVER_CHAT_EVENT",
           "priority": "HIGHEST",
           "receiveCanceled": false
         },
@@ -448,6 +496,13 @@
           "priority": "HIGHEST",
           "receiveCanceled": true,
           "eventClass": "xiao.battleroyale.api.event.custom.stats.GamePlayerRecordEvent$KillRecordEvent"
+        },
+        {
+          "tag": "battleroyale:zone/on_determine_zone",
+          "event": "CUSTOM_EVENT",
+          "priority": "HIGHEST",
+          "receiveCanceled": true,
+          "eventClass": "xiao.battleroyale.api.event.custom.zone.DetermineZoneEvent"
         }
       ]
     }

@@ -10,6 +10,7 @@
       "teamSize": 4,
       "aiTeammate": true,
       "aiEnemy": true,
+      "freeToJoin": false,
       "requiredTeamToStart": 2,
       "maxGameTime": 34000,
       "winnerTeamTotal": 1,
@@ -36,6 +37,7 @@
       "tntExplosionDropDecay": false,
       "spectatorGenerateChunks": false,
       "clearInventoryAtStart": true,
+      "showDeathMessages": false,
       "keepInventory": false,
       "doImmediateRespawn": false,
       "doTimeSet": true,
@@ -63,6 +65,7 @@
         "#FFFFFF"
       ],
       "buildVanillaTeam": true,
+      "vanillaTeamFormat": "team%s",
       "hideVanillaTeamName": true,
       "maxPlayerInvalidTime": 1200,
       "maxBotInvalidTime": 200,

@@ -1,5 +1,22 @@
 ### 0.5.x
 
+#### 0.5.5
+- Additonally write/remove gameId to ItemEntity's item
+- Add suggests to register command
+- Replace lobby teleport sound from dimension to teleport
+
+Fix:
+- Fix crash on stopping server if deathmatch config not loaded yet
+- Fix missing GamePlayerDeathFinishEvent (Issue #57)
+- Send subtitle packet before title packet
+
+Config:
+- Add showDeathMessages to gamerule config
+- Add new Events to example AllFunction config
+
+1.21.1neoforge:
+- Fix ItemEntry not write custom_data
+
 #### 0.5.4
 
 - Auto give wooden sword (for activating CBR addon datapack) when first login
